@@ -31,6 +31,13 @@
     </ul>
 </div>
 
+<div class="desktop-nav">
+    <ul class="sidenav">
+        <li><a href="#"><i class="fas fa-home"></i></a></li>
+        <li><a class = "current-menu-item container" href="#"><i class="fas fa-play-circle"></i></a></li>
+    </ul>
+</div>
+
 
 
 
