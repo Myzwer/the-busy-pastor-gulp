@@ -20,21 +20,35 @@
 </head>
 
 
-<?php //wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
 
 
 <div class="sticky header-mobile" id="stickyBottom">
-    <ul>
-        <li><a class = "current-menu-item container" href="#"><i class="fas fa-home"></i></a></li>
-        <li><a href="#"><i class="fas fa-play-circle"></i></a></li>
-    </ul>
+    <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 </div>
+
+
+
+
+
+
+
+
+<!--<div class="sticky header-mobile" id="stickyBottom">
+    <ul>
+        <li><a class = "current-menu-item" href="/frontpage"><i class="fas fa-home"></i></a></li>
+        <li><a href="/blog"><i class="fas fa-play-circle"></i></a></li>
+    </ul>
+</div>-->
 
 <div class="desktop-nav">
     <ul class="sidenav">
-        <li><a href="#"><i class="fas fa-home"></i></a></li>
-        <li><a class = "current-menu-item container" href="#"><i class="fas fa-play-circle"></i></a></li>
+        <li>
+            <a class = "current-menu-item container" href="/frontpage"><i class="fas fa-home"></i></a>
+        </li>
+        <li>
+            <a href="/blog"><i class="fas fa-play-circle"></i></a>
+        </li>
     </ul>
 </div>
 

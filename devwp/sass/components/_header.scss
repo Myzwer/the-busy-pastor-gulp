@@ -32,11 +32,9 @@
 
 #stickyBottom {
   background-color: #515585;
-}
-
-#stickyBottom {
   bottom: 0;
 }
+
 
 .header-mobile {
   ul {
@@ -59,49 +57,48 @@
   li a {
     display: block;
     color: white;
+    width: 100%;
     text-align: center;
     padding: 10px 0;
     text-decoration: none;
     border: 6px solid #515585;
   }
 
-  .topnav-centered a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .current-menu-item {
+    width: 50%;
+    z-index: 600;
+    position: relative;
   }
 
-  //delete this and replace it with wp friendly code
-  .current-menu-item {
+  .current-menu-item a {
     background: #151965;
     color: #46b5d1;
     border: 6px solid #46b5d1;
     border-radius: 5px;
   }
 
-  // This is how to do this later btw
-  //.current-menu-item a { color: #36c; }
-
+// arrow
   $arrow-size: 20px;
   $arrow-color: #46b5d1;
 
 
-  .container:before {
+  .current-menu-item:before {
     position: absolute;
     content: "";
     display: block;
     width: 0;
     height: 0;
-    top: 1px;
-    left: 25%;
-    margin-left: -$arrow-size;
+    top: 14px;
+    left: 50%;
+    transform: translateX(-50%);
     margin-top: -$arrow-size*2;
     border: $arrow-size solid transparent;
     border-bottom: $arrow-size solid $arrow-color;
+    z-index: 900;
   }
 }
+
+
 
 
 // Desktop
