@@ -41,7 +41,6 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
   }
 
   li {
@@ -88,7 +87,7 @@
     display: block;
     width: 0;
     height: 0;
-    top: 14px;
+    top: 1px;
     left: 50%;
     transform: translateX(-50%);
     margin-top: -$arrow-size*2;
