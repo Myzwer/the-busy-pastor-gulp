@@ -103,7 +103,7 @@
 // Desktop
 .desktop-nav {
 
-  .sidenav {
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -113,6 +113,8 @@
     overflow: auto;
     z-index: 99999;
     width: 75px;
+    display: block;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
     a {
       font-size: 1.7em;
@@ -122,29 +124,40 @@
       text-decoration: none;
       border: 6px solid #515585;
     }
-  }
 
-  .sidenav .current-menu-item {
-    background: #151965;
-    color: #46b5d1;
-    border: 6px solid #46b5d1;
-    border-radius: 5px;
-    overflow: visible;
+    .current-menu-item  {
+      background: #151965;
+      color: #46b5d1;
+      overflow: visible;
+
+      a {
+        border: 6px solid #46b5d1;
+        border-radius: 5px;
+      }
+
+      i {
+        color: #46b5d1;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
   }
+}
 
 
   $arrow-size: 20px;
   $arrow-color: #46b5d1;
 
-  .container:before {
+  .current-menu-item:before {
     position: fixed;
     content: "";
     display: block;
     width: 0;
     height: 0;
-    margin-left: 50px;
+    margin-left: 75px;
+    margin-top: 12px;
     border: $arrow-size solid transparent;
     border-left: $arrow-size solid $arrow-color;
+
   }
 }
 

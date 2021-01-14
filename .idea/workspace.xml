@@ -19,8 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Still working on the navbar. Currently, the mobile version is dynamic with wordpress, but the :before arrow still isn't showing properly. Desktop will need to be converted to dynamic as well. Also added a function in functions.php that swaps text in the navbar for icons.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Parent container had overflow hidden on, which was preventing my :before element from breaking out of its box. That is now fixed, adn the mobile version of the navbar functions as expected dynamically with WP friendly code.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +102,7 @@
       <workItem from="1600713969850" duration="164000" />
       <workItem from="1606754988007" duration="1324000" />
       <workItem from="1610465109029" duration="18000" />
-      <workItem from="1610465129322" duration="28547000" />
+      <workItem from="1610465129322" duration="31567000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -156,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610603457431</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Parent container had overflow hidden on, which was preventing my :before element from breaking out of its box. That is now fixed, adn the mobile version of the navbar functions as expected dynamically with WP friendly code.">
+      <created>1610634557950</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610634557950</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +193,8 @@
     <MESSAGE value="Got a working version of the navbar for mobile rolling. It is still static, so it will need to be adjusted later, as well as a desktop version." />
     <MESSAGE value="Some semblance of the header is done. It is responsive, but static. I'll have to inject the WP code in some time later." />
     <MESSAGE value="Still working on the navbar. Currently, the mobile version is dynamic with wordpress, but the :before arrow still isn't showing properly. Desktop will need to be converted to dynamic as well. Also added a function in functions.php that swaps text in the navbar for icons." />
-    <option name="LAST_COMMIT_MESSAGE" value="Still working on the navbar. Currently, the mobile version is dynamic with wordpress, but the :before arrow still isn't showing properly. Desktop will need to be converted to dynamic as well. Also added a function in functions.php that swaps text in the navbar for icons." />
+    <MESSAGE value="Parent container had overflow hidden on, which was preventing my :before element from breaking out of its box. That is now fixed, adn the mobile version of the navbar functions as expected dynamically with WP friendly code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Parent container had overflow hidden on, which was preventing my :before element from breaking out of its box. That is now fixed, adn the mobile version of the navbar functions as expected dynamically with WP friendly code." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">
