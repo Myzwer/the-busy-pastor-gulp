@@ -38,8 +38,8 @@ add_action('wp_enqueue_scripts', 'scripts_loadin');
 //*****************************************************
 
 //Raleway Registration
-wp_register_style( 'raleway_font', 'https://fonts.googleapis.com/css?family=Raleway:400,700' );
-wp_enqueue_style('raleway_font');
+wp_register_style( 'arvo_font', 'https://fonts.googleapis.com/css2?family=Arvo' );
+wp_enqueue_style('arvo_font');
 
 
 //*****************************************************
