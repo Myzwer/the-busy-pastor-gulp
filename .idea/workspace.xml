@@ -19,36 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Finished the desktop version of the navbar. It is now fully functional, minus the client wanting to update the icons.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":heavy_plus_sign: Added Vangard Font.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/variables/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/variables/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/GothamBlack-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/GothamBlack-Italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/GothamBlack.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/GothamBlack.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/GothamBold-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/GothamBold-Italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/GothamBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/GothamBold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/GothamBook-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/GothamBook-Italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/GothamBook.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/GothamBook.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/GothamMedium-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/GothamMedium-Italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/GothamMedium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/GothamMedium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/Harbour-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/Harbour-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/Harbour-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/Harbour-Light.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/Harbour-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/Harbour-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/webfonts/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/variables/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/variables/_colors.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +103,7 @@
       <workItem from="1610465109029" duration="18000" />
       <workItem from="1610465129322" duration="32738000" />
       <workItem from="1610945204328" duration="361000" />
-      <workItem from="1611440257270" duration="1122000" />
+      <workItem from="1611440257270" duration="2448000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -199,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610638181684</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary=":x: Removed Gotham font that shipped with blueprint from project">
+      <created>1611442482506</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611442482506</updated>
+    </task>
+    <task id="LOCAL-00012" summary=":heavy_plus_sign: Added Vangard Font.">
+      <created>1611442518477</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611442518477</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +217,9 @@
     <MESSAGE value="Still working on the navbar. Currently, the mobile version is dynamic with wordpress, but the :before arrow still isn't showing properly. Desktop will need to be converted to dynamic as well. Also added a function in functions.php that swaps text in the navbar for icons." />
     <MESSAGE value="Parent container had overflow hidden on, which was preventing my :before element from breaking out of its box. That is now fixed, adn the mobile version of the navbar functions as expected dynamically with WP friendly code." />
     <MESSAGE value="Finished the desktop version of the navbar. It is now fully functional, minus the client wanting to update the icons." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished the desktop version of the navbar. It is now fully functional, minus the client wanting to update the icons." />
+    <MESSAGE value=":x: Removed Gotham font that shipped with blueprint from project" />
+    <MESSAGE value=":heavy_plus_sign: Added Vangard Font." />
+    <option name="LAST_COMMIT_MESSAGE" value=":heavy_plus_sign: Added Vangard Font." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">
