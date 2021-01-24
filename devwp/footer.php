@@ -19,18 +19,8 @@
 
 <!-- FOOTER START -->
 <div class="footer">
-    <div class="contain">
-        <div class="col">
-            <?php wp_nav_menu( array( 'theme_location' => 'footer-column-1' ) ); ?>
-        </div>
-        <div class="col">
-            <?php wp_nav_menu( array( 'theme_location' => 'footer-column-2' ) ); ?>
-        </div>
-        <div class="col">
-            <?php wp_nav_menu( array( 'theme_location' => 'footer-column-3' ) ); ?>
-        </div>
-        <div class="clearfix"></div>
-    </div>
+    <p>&#169; <?php echo date("Y"); ?> Foothills Church</p>
+    <a href="/privacy-policy"></a>
 </div>
 <!-- END OF FOOTER -->
 
