@@ -14,7 +14,7 @@
 // MOBILE
 .sticky {
   text-align: center;
-  color: #FFF;
+  color: $primary;
   font-size: 32px;
   width: 100%;
   z-index: 99999;
@@ -31,7 +31,7 @@
 }
 
 #stickyBottom {
-  background-color: #515585;
+  background-color: $primary;
   bottom: 0;
 }
 
@@ -60,7 +60,6 @@
     text-align: center;
     padding: 10px 0;
     text-decoration: none;
-    border: 6px solid #515585;
   }
 
   .current-menu-item {
@@ -70,15 +69,14 @@
   }
 
   .current-menu-item a {
-    background: #151965;
-    color: #46b5d1;
-    border: 6px solid #46b5d1;
+    background: $dark;
+    color: $background;
     border-radius: 5px;
   }
 
 // arrow
   $arrow-size: 20px;
-  $arrow-color: #46b5d1;
+  $arrow-color: $dark;
 
 
   .current-menu-item:before {
@@ -107,7 +105,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #515585;
+    background-color: $primary;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -119,24 +117,24 @@
     a {
       font-size: 1.7em;
       display: block;
-      color: white;
+      color: $dark;
       padding: 8px 16px;
       text-decoration: none;
-      border: 6px solid #515585;
+      border: 6px solid $primary;
     }
 
     .current-menu-item  {
-      background: #151965;
-      color: #46b5d1;
+      background: $dark;
+      color: $primary;
       overflow: visible;
 
       a {
-        border: 6px solid #46b5d1;
+        border: 6px solid $dark;
         border-radius: 5px;
       }
 
       i {
-        color: #46b5d1;
+        color: $background;
         padding-top: 5px;
         padding-bottom: 5px;
       }
@@ -145,7 +143,7 @@
 
 
   $arrow-size: 20px;
-  $arrow-color: #46b5d1;
+  $arrow-color: $dark;
 
   .current-menu-item:before {
     position: fixed;
