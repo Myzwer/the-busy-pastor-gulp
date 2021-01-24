@@ -19,12 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":heavy_plus_sign: Added Vangard Font.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":art: Updated SCSS color palette.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/variables/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/variables/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +103,7 @@
       <workItem from="1610465109029" duration="18000" />
       <workItem from="1610465129322" duration="32738000" />
       <workItem from="1610945204328" duration="361000" />
-      <workItem from="1611440257270" duration="2448000" />
+      <workItem from="1611440257270" duration="5160000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611442518477</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary=":art: Updated SCSS color palette.">
+      <created>1611443789555</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611443789555</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +226,8 @@
     <MESSAGE value="Finished the desktop version of the navbar. It is now fully functional, minus the client wanting to update the icons." />
     <MESSAGE value=":x: Removed Gotham font that shipped with blueprint from project" />
     <MESSAGE value=":heavy_plus_sign: Added Vangard Font." />
-    <option name="LAST_COMMIT_MESSAGE" value=":heavy_plus_sign: Added Vangard Font." />
+    <MESSAGE value=":art: Updated SCSS color palette." />
+    <option name="LAST_COMMIT_MESSAGE" value=":art: Updated SCSS color palette." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">
