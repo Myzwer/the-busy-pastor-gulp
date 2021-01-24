@@ -20,7 +20,7 @@
 <!-- FOOTER START -->
 <div class="footer">
     <p>&#169; <?php echo date("Y"); ?> Foothills Church</p>
-    <a href="/privacy-policy"></a>
+    <p><a href="/privacy-policy">Privacy Policy</a></p>
 </div>
 <!-- END OF FOOTER -->
 
