@@ -16,27 +16,29 @@
 .btn {
   box-sizing: border-box;
   appearance: none;
-  background-color: transparent;
-  border: 2px solid #02B3FF;                // change this color
-  color: #02B3FF;                           // change this color
+  background-color: $yellow;
+  color: $background;
   border-radius: 0.6em;
+  font-family: $head-font;
   cursor: pointer;
   display: flex;
   align-self: center;
   font-size: 1rem;
   line-height: 1;
   margin: 20px;
-  padding: 1.2em 2.8em;
+  padding: 10px 40px;
+  min-width: 120px;
+  min-height: 30px;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
 
-  &:hover,
+/*  &:hover,
   &:focus {
     color: #fff;
     outline: 0;
-  }
+  }*/
 }
 
 
@@ -44,35 +46,38 @@
 //************* BUTTON STYLE 1 ****************
 //*********************************************
 .btn-v1 {
-  //background: ;
-  border-color: #02B3FF;                  // change this color
-  color: #fff;                            // change this color
-  background: {
-    image:
-    linear-gradient(45deg, #02B3FF 50%,   // change this color
-    transparent 50%);
-    position: 100%;
-    size: 400%;
-  }
-  transition: background 300ms ease-in-out;
+  background: $yellow;
+  background: rgb(234,228,50);
+  background: radial-gradient(circle, rgba(234,228,50,1) 100%, rgba(234,228,50,1) 100%);
+  transition: background 600ms ease-in-out;
+  font-weight: 800;
+  letter-spacing: 1px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
   &:hover {
-    background-position: 0;
+    background: rgb(240,238,191);
+    background: radial-gradient(circle, rgba(240,238,191,1) 0%, rgba(234,228,50,1) 100%);
   }
 }
 
 //*********************************************
 //************* BUTTON STYLE 2 ****************
 //*********************************************
-.btn-v2 {
-  border-color: #02B3FF;                 // change this color
-  color: #02B3FF;                        // change this color
-  // border: 0;
-  border-radius: 0;
+.btn-v2-light {
+  border: 5px solid $primary;
+  color: $primary;
+  background-color: transparent;
+  border-radius: 8px;
   position: relative;
   overflow: hidden;
   z-index: 1;
   transition: color 150ms ease-in-out;
+  font-family: $main-font;
+  min-height: 35px;
+  padding: 13px 120px;
+  min-width: 300px;
+  text-align: center;
+  text-transform: none;
 
   &:after {
     content: '';
@@ -83,14 +88,54 @@
     transform: translateX(-50%);
     width: 0;
     height: 100%;
-    background: #02B3FF;               // change this color
+    background: $dark;
     z-index: -1;
     transition:
             width 150ms ease-in-out;
   }
 
   &:hover {
-    color: #fff;                      // change this color
+    color: #fff;
+
+    &:after {
+      width: 110%;
+    }
+  }
+}
+
+.btn-v2-dark {
+  border: 5px solid $background;
+  color: $background;
+  background-color: transparent;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 150ms ease-in-out;
+  font-family: $main-font;
+  min-height: 35px;
+  padding: 13px 120px;
+  min-width: 300px;
+  text-align: center;
+  text-transform: none;
+
+  &:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: $background;
+    z-index: -1;
+    transition:
+            width 150ms ease-in-out;
+  }
+
+  &:hover {
+    color: #fff;
 
     &:after {
       width: 110%;
