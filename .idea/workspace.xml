@@ -19,14 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":art: Updated the SCSS on the footer.">
-      <change afterPath="$PROJECT_DIR$/devwp/sass/components/_icon-font.scss" afterDir="false" />
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":heavy_plus_sign: Added custom icons for the navbar. This required a switch in functions to change how they display, as well as some scss to changes in the header.scss file to manipulate them.">
+      <change afterPath="$PROJECT_DIR$/devwp/sass/utilities/_slants.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +105,7 @@
       <workItem from="1610465109029" duration="18000" />
       <workItem from="1610465129322" duration="32738000" />
       <workItem from="1610945204328" duration="361000" />
-      <workItem from="1611440257270" duration="16208000" />
+      <workItem from="1611440257270" duration="18069000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -234,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611463405962</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary=":heavy_plus_sign: Added custom icons for the navbar. This required a switch in functions to change how they display, as well as some scss to changes in the header.scss file to manipulate them.">
+      <created>1612069118341</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1612069118341</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +276,8 @@
     <MESSAGE value=":art: Updated SCSS Header Colors; No functionality changes." />
     <MESSAGE value=":rocket: Changed the Footer to only have copyright and one link since the site is so small." />
     <MESSAGE value=":art: Updated the SCSS on the footer." />
-    <option name="LAST_COMMIT_MESSAGE" value=":art: Updated the SCSS on the footer." />
+    <MESSAGE value=":heavy_plus_sign: Added custom icons for the navbar. This required a switch in functions to change how they display, as well as some scss to changes in the header.scss file to manipulate them." />
+    <option name="LAST_COMMIT_MESSAGE" value=":heavy_plus_sign: Added custom icons for the navbar. This required a switch in functions to change how they display, as well as some scss to changes in the header.scss file to manipulate them." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">

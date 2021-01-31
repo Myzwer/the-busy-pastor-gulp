@@ -1,0 +1,48 @@
+/**
+ * Slants
+ * =================================
+ * - Slanted backgrounds
+ *
+ *
+ */
+
+
+
+.colored-slants {
+  background-color: #234058;
+}
+
+.colored-slants h1, .colored-slants p {
+  color: white;
+}
+
+.colored-slants .eventButton {
+  background-color: white;
+  color: black;
+}
+
+.slanted {
+  box-sizing: border-box;
+  padding: 3em 1em;
+  transform: skewY(-2deg);
+}
+
+@media screen and (min-width: 40em) {
+  .slanted {
+    padding: 6em 1em;
+  }
+}
+
+
+.slanted > * {
+  transform: skewY(2deg);
+  max-width: 55em;
+  margin: auto;
+  text-align: left;
+}
+
+@media screen and (min-width: 40em) {
+  .slanted > * {
+    text-align: center;
+  }
+}
