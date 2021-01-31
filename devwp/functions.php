@@ -87,8 +87,8 @@ add_action('wp_loaded', function () {
                 // ... etc.
             ];
             $replace = [
-                '><i class="fas fa-home"></i><', // ... Our replacement for Home
-                '><i class="fas fa-play-circle"></i><', // ... Our replacement for Listen
+                '><span class="icon-icons8-home"></span><', // ... Our replacement for Home
+                '><span class="icon-icons8-play"></span><', // ... Our replacement for Listen
                 // ... etc.
             ];
             $subject = preg_replace($search, $replace, $subject);

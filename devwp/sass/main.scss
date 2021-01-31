@@ -22,6 +22,7 @@
 @import 'variables/colors.scss';
 @import 'variables/fonts.scss';
 @import 'variables/sizes.scss';
+@import 'components/icon-font'; //technically not a variable, but since it is a font, it needs to be called here
 
 
 //*********************************************
@@ -45,6 +46,7 @@
 @import 'components/footer';
 @import 'components/buttons';
 @import 'components/backgrounds';
+
 
 
 

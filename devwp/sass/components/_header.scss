@@ -48,9 +48,13 @@
     width: 50%;
   }
 
-  li i {
+  li span {
     font-size: 1.4em;
     padding-top: 3px;
+  }
+
+  span {
+    color: $dark;
   }
 
   li a {
@@ -72,6 +76,10 @@
     background: $dark;
     color: $background;
     border-radius: 5px;
+  }
+
+  .current-menu-item a span {
+  color: $background;
   }
 
 // arrow
@@ -133,7 +141,7 @@
         border-radius: 5px;
       }
 
-      i {
+      span {
         color: $background;
         padding-top: 5px;
         padding-bottom: 5px;
