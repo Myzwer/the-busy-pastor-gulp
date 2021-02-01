@@ -1,0 +1,22 @@
+/**
+ * Spacing
+ * =================================
+ * - Rounded Image
+ *
+ *
+ *
+ *
+ */
+
+.centered-image {
+
+}
+
+.mobile-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 100%;
+  border: 10px solid $dark;
+}

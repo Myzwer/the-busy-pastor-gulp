@@ -32,6 +32,9 @@ get_header(); ?>
 
     <div class="slanted slant-light margin-pull-large">
         <h2>The Busy Pastors</h2>
+        <div class="relative">
+            <img class = "mobile-image" src="http://the-busy-pastor.local/wp-content/uploads/2021/02/Pastor-Trent-Rounded-No-Border.png" alt="">
+        </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat metus id nulla rutrum, nec consequat
             arcu porta. Aenean egestas mattis mauris, quis fermentum nulla condimentum ac. Duis vel risus placerat,
             ullamcorper mi et, varius justo. Integer eu erat ut nibh mollis tempus sed at velit. Sed ac lectus mattis,

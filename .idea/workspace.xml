@@ -19,16 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Created the mobile header on frontpage.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Fixed an issue where the slant caused background to show behind the slant but under the image. Basically I removed a colored strip of background that wasn't suppposed to be seen.">
+      <change afterPath="$PROJECT_DIR$/devwp/sass/utilities/_images.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_slants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_slants.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,7 @@
       <workItem from="1610465129322" duration="32738000" />
       <workItem from="1610945204328" duration="361000" />
       <workItem from="1611440257270" duration="19978000" />
-      <workItem from="1612137818901" duration="9643000" />
+      <workItem from="1612137818901" duration="12984000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -264,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612152348014</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary=":hammer: Fixed an issue where the slant caused background to show behind the slant but under the image. Basically I removed a colored strip of background that wasn't suppposed to be seen.">
+      <created>1612193227848</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1612193227848</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +310,8 @@
     <MESSAGE value=":art: Updated the header on front-page.php." />
     <MESSAGE value=":hammer: WP Admin isn't loading when the replace function is active in functions.php. No clue why, but I disabled it for now to fix later. This of course breaks the header." />
     <MESSAGE value=":rocket: Created the mobile header on frontpage." />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Created the mobile header on frontpage." />
+    <MESSAGE value=":hammer: Fixed an issue where the slant caused background to show behind the slant but under the image. Basically I removed a colored strip of background that wasn't suppposed to be seen." />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Fixed an issue where the slant caused background to show behind the slant but under the image. Basically I removed a colored strip of background that wasn't suppposed to be seen." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">
