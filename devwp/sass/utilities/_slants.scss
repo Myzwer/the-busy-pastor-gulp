@@ -8,23 +8,12 @@
 
 
 
-.colored-slants {
-  background-color: #234058;
-}
 
-.colored-slants h1, .colored-slants p {
-  color: white;
-}
-
-.colored-slants .eventButton {
-  background-color: white;
-  color: black;
-}
 
 .slanted {
   box-sizing: border-box;
   padding: 3em 1em;
-  transform: skewY(-2deg);
+  transform: skewY(12deg);
 }
 
 @media screen and (min-width: 40em) {
@@ -35,7 +24,7 @@
 
 
 .slanted > * {
-  transform: skewY(2deg);
+  transform: skewY(-12deg);
   max-width: 55em;
   margin: auto;
   text-align: left;
@@ -45,4 +34,12 @@
   .slanted > * {
     text-align: center;
   }
+}
+
+.slant-dark {
+  background-color: $background;
+}
+
+.slant-light {
+  background-color: $primary;
 }

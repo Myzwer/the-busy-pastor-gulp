@@ -1,6 +1,7 @@
 /**
  * Backgrounds
  * =================================
+ * - Body Background
  * - Photo Header
  * - Video Header
  * - Color Backgrounds
@@ -10,7 +11,9 @@
  *
  */
 
-
+body {
+  background-color: $background;
+}
 
 //*********************************************
 //************** PHOTO HEADER *****************
