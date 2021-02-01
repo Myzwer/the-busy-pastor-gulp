@@ -175,11 +175,4 @@
   }
 }
 
-// Disable content adjustment
-@media screen and (min-width: 40em) {
-  .content {
-    margin-left: 75px;
-    position: relative;
-    z-index: 1;
-  }
-}
+

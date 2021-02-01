@@ -20,8 +20,10 @@ get_header(); ?>
         <div class="grid-x grid-padding-x full-background" style = "background: url(http://the-busy-pastor.local/wp-content/uploads/2021/02/Background-Texture.jpg);  background-position: center center;">
             <div class="large-12 cell">
                 <div class="padding-top">
-                    <h1 class = "dark-color-invert">The Busy Pastor</h1>
-                    <button class="btn btn-v1 center">Button 4</button>
+                    <h1 class = "dark-color-invert large-title">The Busy Pastor</h1>
+                    <h3 class = "dark-color-invert">Be busy with the right things.</h3>
+                    <p class = "dark-color-invert">Nam viverra risus sed erat cursus, at euismod ante lacinia. Pellentesque mauris mi, vehicula eget enim a, viverra bibendum tortor. Curabitur lacus dolor, feugiat in dolor quis, ultricies condimentum ex. Vestibulum semper elit tortor, et aliquet metus pulvinar dignissim. Nulla varius mi id libero accumsan vehicula. Integer nec elementum est.</p>
+                    <button class="btn btn-v1">Button 4</button>
                 </div>
             </div>
         </div>

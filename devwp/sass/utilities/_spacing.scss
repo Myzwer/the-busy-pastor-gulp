@@ -4,7 +4,7 @@
  * - Both
  * - Padding
  * - Margin
- *
+ * - Content Alignment
  *
  *
  *
@@ -74,3 +74,20 @@
   margin-right: 30px;
 }
 
+
+// Content Adjustment on whole page - Desktop only
+@media screen and (min-width: 40em) {
+  .content {
+    margin-left: 75px;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+// Mobile content global margin
+@media screen and (max-width: 39.9375em) {
+  .content .mobile-margins {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
