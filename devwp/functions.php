@@ -72,32 +72,32 @@ function register_col_3() {
 add_action( 'init', 'register_col_3' );
 
 
-/**
- * do_action( 'wp_loaded' )
+
+/* * do_action( 'wp_loaded' )
  * This hook is fired once WP, all plugins, and the theme are fully loaded and instantiated.
  * @link https://developer.wordpress.org/reference/hooks/wp_loaded/
  */
-add_action('wp_loaded', function () {
-    function wp_custom_fontawesome_nav($subject)
-    {
-        if (!is_admin()) {
-            $search = [
-                '/>Home</', // ... >Home< with the brackets, to be sure to target the right Home word
-                '/>Listen</', // ... etc.
-                // ... etc.
-            ];
-            $replace = [
-                '><span class="icon-icons8-home"></span><', // ... Our replacement for Home
-                '><span class="icon-icons8-play"></span><', // ... Our replacement for Listen
-                // ... etc.
-            ];
-            $subject = preg_replace($search, $replace, $subject);
-            return $subject;
-        };
-    }
-
-    ;
-    ob_start('wp_custom_fontawesome_nav');
-});
+//add_action('wp_loaded', function () {
+//    function wp_custom_fontawesome_nav($subject)
+//    {
+//        if (!is_admin()) {
+//            $search = [
+//                '/>Home</', // ... >Home< with the brackets, to be sure to target the right Home word
+//                '/>Listen</', // ... etc.
+//                // ... etc.
+//            ];
+//            $replace = [
+//                '><span class="icon-icons8-home"></span><', // ... Our replacement for Home
+//                '><span class="icon-icons8-play"></span><', // ... Our replacement for Listen
+//                // ... etc.
+//            ];
+//            $subject = preg_replace($search, $replace, $subject);
+//            return $subject;
+//        };
+//    }
+//
+//    ;
+//    ob_start('wp_custom_fontawesome_nav');
+//});
 
 ?>
