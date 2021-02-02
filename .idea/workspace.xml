@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Fixed the cards on blog page that decided to center align when it hit tablet size.">
-      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_footer.scss" afterDir="false" />
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Fixed the footer floating up too high on desktop. Mobile remains untouched.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +101,7 @@
       <workItem from="1610465129322" duration="32738000" />
       <workItem from="1610945204328" duration="361000" />
       <workItem from="1611440257270" duration="19978000" />
-      <workItem from="1612137818901" duration="43616000" />
+      <workItem from="1612137818901" duration="46466000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -375,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612303521579</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary=":hammer: Fixed the footer floating up too high on desktop. Mobile remains untouched.">
+      <created>1612303667857</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1612303667857</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +402,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":art: Updated SCSS Header Colors; No functionality changes." />
     <MESSAGE value=":rocket: Changed the Footer to only have copyright and one link since the site is so small." />
     <MESSAGE value=":art: Updated the SCSS on the footer." />
     <MESSAGE value=":heavy_plus_sign: Added custom icons for the navbar. This required a switch in functions to change how they display, as well as some scss to changes in the header.scss file to manipulate them." />
@@ -419,7 +426,8 @@
     <MESSAGE value=":rocket: Adjusted placement on buttons for the header on blog page." />
     <MESSAGE value=":rocket: Added intial support for tablet and desktop to entire page. Will probably need tweaks later. But it works for now if you don't look too hard." />
     <MESSAGE value=":hammer: Fixed the cards on blog page that decided to center align when it hit tablet size." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Fixed the cards on blog page that decided to center align when it hit tablet size." />
+    <MESSAGE value=":hammer: Fixed the footer floating up too high on desktop. Mobile remains untouched." />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Fixed the footer floating up too high on desktop. Mobile remains untouched." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">
