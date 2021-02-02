@@ -23,7 +23,7 @@ get_header(); ?>
                     <h1 class = "dark-color-invert large-title">The Busy Pastor</h1>
                     <h3 class = "dark-color-invert">Be busy with the right things.</h3>
                     <p class = "dark-color-invert">Nam viverra risus sed erat cursus, at euismod ante lacinia. Pellentesque mauris mi, vehicula eget enim a, viverra bibendum tortor. Curabitur lacus dolor, feugiat in dolor quis, ultricies condimentum ex. Vestibulum semper elit tortor, et aliquet metus pulvinar dignissim. Nulla varius mi id libero accumsan vehicula. Integer nec elementum est.</p>
-                    <button class="btn btn-v1"><span class="icon-icons8-play"></span> Watch Now</button>
+                        <button class="btn btn-v1"><span class="icon-icons8-play"></span> Watch Now</button>
                 </div>
             </div>
         </div>
@@ -71,9 +71,25 @@ get_header(); ?>
         </div>
     </div>
 
+    <div class="slanted slant-dark">
+        <div class="grid-x ">
+            <div class="small-12 cell">
+                <h2 class = "dark-color-invert">Trying to be busy with the right things? We can help!</h2>
+                <h3 class = "dark-color-invert">Sign up for our newsletter.</h3>
+            </div>
 
-</div>
+            <div class="small-12 cell">
+                <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+                    the_content();
+                endwhile; else: ?>
+                    <p>Sorry, no posts matched your criteria.</p>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
 
+
+</div> <!--End Content, MUST BE last-->
 
 
 <?php get_footer();
