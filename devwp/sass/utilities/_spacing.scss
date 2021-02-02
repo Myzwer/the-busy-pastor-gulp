@@ -78,12 +78,18 @@
   margin-right: 30px;
 }
 
+
+//when dealing with the slants, you gotta have weird margins sometimes to push and pull elements out of the way. That's what these are for.
 .margin-pull {
   margin-top: -30px;
 }
 
 .margin-pull-large {
   margin-top: -50px;
+}
+
+.header-height {
+  height: 900px;
 }
 
 

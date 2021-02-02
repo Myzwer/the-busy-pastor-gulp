@@ -1,0 +1,38 @@
+/**
+ * Cards
+ * =================================
+ * - Podcast Cards
+ *
+ *
+ *
+ *
+ *
+ */
+
+
+// Podcast Cards
+.podcast-card {
+  background-color: $primary;
+  color: $background;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  h3 {
+    font-weight: 300;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: .9em;
+  }
+
+  button {
+    margin-bottom: 10px;
+  }
+}

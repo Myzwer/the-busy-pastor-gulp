@@ -14,28 +14,48 @@
 get_header(); ?>
 
     <div class="content">
-        <div class="grid-container inverted-background  full-width">
-
-                <div class="grid-x">
-                    <div class="small-8 cell">
-                        <h2 class="large-title">Busy Pastor Podcast</h2>
-                    </div>
-                    <div class="small-12 cell">
-                        <h3>Be busy with the right things.</h3>
-                        <p>Nam viverra risus sed erat cursus, at euismod ante
-                            lacinia. Pellentesque mauris mi, vehicula eget enim a, viverra bibendum
-                            tortor. Curabitur lacus dolor, feugiat in dolor quis, ultricies condimentum
-                            ex. Vestibulum semper elit tortor, et aliquet metus pulvinar dignissim.
-                            Nulla varius mi id libero accumsan vehicula. Integer nec elementum est.</p>
-                    </div>
-                    <div class="small-12 cell button-width">
-                        <button class="btn btn-v2-dark"> Listen on Apple Podcasts</button>
-                        <button class="btn btn-v2-dark"> Listen on Spotify</button>
-                        <button class="btn btn-v2-dark"> Listen on Google Podcasts</button>
-                    </div>
-
+        <div class="grid-container inverted-background header-height full-width">
+            <div class="grid-x">
+                <div class="small-8 cell">
+                    <h2 class="large-title">Busy Pastor Podcast</h2>
+                </div>
+                <div class="small-12 cell">
+                    <h3>Be busy with the right things.</h3>
+                    <p>Nam viverra risus sed erat cursus, at euismod ante
+                        lacinia. Pellentesque mauris mi, vehicula eget enim a, viverra bibendum
+                        tortor. Curabitur lacus dolor, feugiat in dolor quis, ultricies condimentum
+                        ex. Vestibulum semper elit tortor, et aliquet metus pulvinar dignissim.
+                        Nulla varius mi id libero accumsan vehicula. Integer nec elementum est.</p>
+                </div>
+                <div class="small-12 cell button-width">
+                    <button class="btn btn-v2-dark"> Listen on Apple Podcasts</button>
+                    <button class="btn btn-v2-dark"> Listen on Spotify</button>
+                    <button class="btn btn-v2-dark"> Listen on Google Podcasts</button>
+                </div>
             </div>
         </div>
+
+    <div class="slanted slant-dark margin-pull-large">
+        <div class="grid-x">
+            <div class="small-12 cell">
+                <h2 class = "left dark-color-invert">Video Episodes</h2>
+            </div>
+        </div>
+
+    <div class="grid-x grid-padding-x">
+        <div class="small-12 podcast-card cell">
+            <h2>Podcast Title</h2>
+            <h3>Episode 1</h3>
+            <p>Nam viverra risus sed erat cursus, at euismod ante
+                lacinia. Pellentesque mauris mi, vehicula eget enim a, viverra bibendum
+                tortor. Curabitur lacus dolor, feugiat in dolor quis, ultricies condimentum
+                ex. Vestibulum semper elit tortor, et aliquet metus pulvinar dignissim.
+                Nulla varius mi id libero accumsan vehicula.</p>
+            <button class="btn btn-v1"><span class="icon-icons8-play"></span> Watch Now
+            </button>
+        </div>
+    </div>
+    </div>
 
         <div class="grid-container">
             <div class="grid-x grid-padding-x">
