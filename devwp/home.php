@@ -53,12 +53,14 @@ get_header(); ?>
                     echo "<div class='small-12 medium-6 margin-bottom podcast-card cell'>";
                     ?>
 
-                    <h2><?php the_title(); ?></h2>
-                    <h3>Episode X</h3>
-                    <p><?php the_excerpt(); ?></p>
-                    <a href="<?php the_permalink(); ?>">
-                        <button class="btn btn-v1"><span class="icon-icons8-play"></span> Watch Now</button>
-                    </a>
+                    <div class="left">
+                        <h2><?php the_title(); ?></h2>
+                        <h3>Episode X</h3>
+                        <p><?php the_excerpt(); ?></p>
+                        <a href="<?php the_permalink(); ?>">
+                            <button class="btn btn-v1"><span class="icon-icons8-play"></span> Watch Now</button>
+                        </a>
+                    </div>
                 </div>
 
                 <?php

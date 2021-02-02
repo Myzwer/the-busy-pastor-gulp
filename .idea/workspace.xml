@@ -19,15 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Adjusted placement on buttons for the header on blog page.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Added intial support for tablet and desktop to entire page. Will probably need tweaks later. But it works for now if you don't look too hard.">
       <change beforePath="$PROJECT_DIR$/devwp/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_slants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_slants.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +100,7 @@
       <workItem from="1610465129322" duration="32738000" />
       <workItem from="1610945204328" duration="361000" />
       <workItem from="1611440257270" duration="19978000" />
-      <workItem from="1612137818901" duration="43345000" />
+      <workItem from="1612137818901" duration="43477000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -368,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612302215481</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary=":rocket: Added intial support for tablet and desktop to entire page. Will probably need tweaks later. But it works for now if you don't look too hard.">
+      <created>1612303397110</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1612303397110</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +387,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":art: Updated SCSS typography." />
     <MESSAGE value=":art: Updated SCSS buttons." />
     <MESSAGE value=":art: Updated SCSS Header Colors; No functionality changes." />
     <MESSAGE value=":rocket: Changed the Footer to only have copyright and one link since the site is so small." />
@@ -412,7 +411,8 @@
     <MESSAGE value=":hammer: Fixed an issue on mobile where the slanted section overlapped onto the content. Also added hyperlink support to the (previously) inactive buttons at the top of the page." />
     <MESSAGE value=":scroll: Updated the theme name in all the pages that are currently being used on the website." />
     <MESSAGE value=":rocket: Adjusted placement on buttons for the header on blog page." />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Adjusted placement on buttons for the header on blog page." />
+    <MESSAGE value=":rocket: Added intial support for tablet and desktop to entire page. Will probably need tweaks later. But it works for now if you don't look too hard." />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Added intial support for tablet and desktop to entire page. Will probably need tweaks later. But it works for now if you don't look too hard." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">
