@@ -18,16 +18,29 @@ get_header(); ?>
 <div class="content">
     <div class="grid-container full-width">
         <div class="grid-x grid-padding-x full-background" style = "background: url(http://the-busy-pastor.local/wp-content/uploads/2021/02/Background-Texture.jpg);  background-position: center center;">
-            <div class="small-12 cell">
+            <div class="show-for-desktop">
+                <div class="absolute large-logo">
+                    <img src="http://the-busy-pastor.local/wp-content/uploads/2021/02/BP-logo.png" alt="">
+                </div>
+            </div>
+            
+            <div class="small-12 cell z-index-1">
                 <div class="padding-top">
                     <div class="grid-x">
-                        <div class="small-10 cell">
+                        <div class="small-10 medium-3 cell">
                             <h1 class = "dark-color-invert large-title">The Busy Pastor</h1>
                         </div>
+
+                        <div class="small-12 cell">
+                            <div class="grid-x">
+                                <div class="medium-8 cell">
+                                    <h3 class = "dark-color-invert">Be busy with the right things.</h3>
+                                    <p class = "dark-color-invert">Nam viverra risus sed erat cursus, at euismod ante lacinia. Pellentesque mauris mi, vehicula eget enim a, viverra bibendum tortor. Curabitur lacus dolor, feugiat in dolor quis, ultricies condimentum ex. Vestibulum semper elit tortor, et aliquet metus pulvinar dignissim. Nulla varius mi id libero accumsan vehicula. Integer nec elementum est.</p>
+                                    <button class="btn btn-v1"><span class="icon-icons8-play"></span> Watch Now</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h3 class = "dark-color-invert">Be busy with the right things.</h3>
-                    <p class = "dark-color-invert">Nam viverra risus sed erat cursus, at euismod ante lacinia. Pellentesque mauris mi, vehicula eget enim a, viverra bibendum tortor. Curabitur lacus dolor, feugiat in dolor quis, ultricies condimentum ex. Vestibulum semper elit tortor, et aliquet metus pulvinar dignissim. Nulla varius mi id libero accumsan vehicula. Integer nec elementum est.</p>
-                        <button class="btn btn-v1"><span class="icon-icons8-play"></span> Watch Now</button>
                 </div>
             </div>
         </div>

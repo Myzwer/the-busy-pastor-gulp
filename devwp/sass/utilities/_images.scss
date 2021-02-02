@@ -32,3 +32,13 @@
     padding-right: 5px;
   }
 }
+
+
+// Large Logo on desktop homepage
+.large-logo {
+  right: -20px;
+  top: -30px;
+  width: 80%;
+  z-index: 0;
+  opacity: .5;
+}
