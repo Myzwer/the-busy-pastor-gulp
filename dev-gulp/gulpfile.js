@@ -69,7 +69,7 @@ function css() {
         .pipe(sass({
             outputStyle: 'expanded'
         }).on('error', sass.logError))
-        .pipe(autoprefixer('last 2 versions'))
+        .pipe(autoprefixer('last 2 versions')) //update this if legacy browser support is needed
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(root));
 }
