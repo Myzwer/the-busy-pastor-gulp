@@ -1,13 +1,13 @@
 <?php
 /**
- * The template for displaying the footer of the Yestau Theme
+ * The template for displaying the footer of the "Busy Theme" Theme
  *
  * Contains the opening of the footer of all pages and all subsequent content.
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package WordPress
- * @subpackage Yestau
+ * @subpackage A Busy Theme
  * @since 1.0.0
  */
 

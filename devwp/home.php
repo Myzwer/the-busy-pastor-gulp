@@ -7,7 +7,7 @@
  *
  *
  * @package WordPress
- * @subpackage Yestau
+ * @subpackage A Busy Theme
  * @since 1.0.0
  */
 
