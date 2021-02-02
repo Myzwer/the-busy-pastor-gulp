@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Fixed the footer being covered by the nav on mobile.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Straight up forgot to add foundation to the about us section, so went back and added that.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
     </list>
@@ -101,7 +101,7 @@
       <workItem from="1610465129322" duration="32738000" />
       <workItem from="1610945204328" duration="361000" />
       <workItem from="1611440257270" duration="19978000" />
-      <workItem from="1612137818901" duration="21606000" />
+      <workItem from="1612137818901" duration="22164000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -292,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612241569123</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary=":hammer: Straight up forgot to add foundation to the about us section, so went back and added that.">
+      <created>1612243898752</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1612243898752</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +318,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completely reworked my scss file structure. Moved most of my files into a few folders and broke them apart into smaller files. This change was inpsired from changes I was making to nearly every project I worked on. The current structure had too many classes that could fit into one or more files, so this helps differentiate which classes should be in which files." />
     <MESSAGE value="Updated the default font to be gotham instead of harbor, as this is used on more projects than harbour is. Also made a slight change to the class names of text-color flips to be more consistant with other projects." />
     <MESSAGE value="Got a working version of the navbar for mobile rolling. It is still static, so it will need to be adjusted later, as well as a desktop version." />
     <MESSAGE value="Some semblance of the header is done. It is responsive, but static. I'll have to inject the WP code in some time later." />
@@ -336,7 +342,8 @@
     <MESSAGE value=":rocket: Finished the first iteration of the about us section on the homepage." />
     <MESSAGE value=":rocket: Added the form on the frontpage." />
     <MESSAGE value=":hammer: Fixed the footer being covered by the nav on mobile." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Fixed the footer being covered by the nav on mobile." />
+    <MESSAGE value=":hammer: Straight up forgot to add foundation to the about us section, so went back and added that." />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Straight up forgot to add foundation to the about us section, so went back and added that." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">
