@@ -31,48 +31,54 @@ get_header(); ?>
 
 
     <div class="slanted slant-light margin-pull-large">
-        <h2>The Busy Pastors</h2>
-        <div class="center">
-            <div class="padding-top-sm">
-                <img class = "mobile-image" src="http://the-busy-pastor.local/wp-content/uploads/2021/02/Pastor-Trent-Rounded-No-Border.png" alt="">
+        <div class="grid-x">
+            <div class="small-12 cell">
+                <h2>The Busy Pastors</h2>
             </div>
-
-            <h2 class = "center name-title">Dr. Trent Stewart</h2>
-            <h4 class = "subtitle">Lead Pastor, Foothills Church</h4>
-            <div class="social-icons">
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-instagram-square"></i>
-                <i class="fab fa-twitter-square"></i>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat metus id nulla rutrum, nec consequat
-            arcu porta. Aenean egestas mattis mauris, quis fermentum nulla condimentum ac. Duis vel risus placerat,
-            ullamcorper mi et, varius justo. Integer eu erat ut nibh mollis tempus sed at velit. Sed ac lectus mattis,
-            suscipit est vel, laoreet elit. Curabitur venenatis pretium venenatis. Ut eget volutpat magna, eget ultrices
-            mi.</p>
-        </div>
-
-        <div class="center padding-top">
-            <div class="padding-top-sm">
-                <img class = "mobile-image" src="http://the-busy-pastor.local/wp-content/uploads/2021/02/Pastor-Greg-Rounded-No-Border.png" alt="">
-            </div>
-
-            <h2 class = "center name-title">Greg Gibson</h2>
-            <h4 class = "subtitle">Chuch Planter, The World</h4>
-            <div class="social-icons">
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-instagram-square"></i>
-                <i class="fab fa-twitter-square"></i>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat metus id nulla rutrum, nec consequat
+            <div class="small-12 cell center">
+                <div class="padding-top-sm">
+                    <img class = "mobile-image" src="http://the-busy-pastor.local/wp-content/uploads/2021/02/Pastor-Trent-Rounded-No-Border.png" alt="">
+                </div>
+                <h2 class = "center name-title">Dr. Trent Stewart</h2>
+                <h4 class = "subtitle">Lead Pastor, Foothills Church</h4>
+                <div class="social-icons">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                </div>
+                <p class = "left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat metus id nulla rutrum, nec consequat
                 arcu porta. Aenean egestas mattis mauris, quis fermentum nulla condimentum ac. Duis vel risus placerat,
                 ullamcorper mi et, varius justo. Integer eu erat ut nibh mollis tempus sed at velit. Sed ac lectus mattis,
                 suscipit est vel, laoreet elit. Curabitur venenatis pretium venenatis. Ut eget volutpat magna, eget ultrices
                 mi.</p>
+            </div>
+
+
+            <div class="small-12 cell center">
+                <div class="padding-top-sm">
+                    <img class = "mobile-image" src="http://the-busy-pastor.local/wp-content/uploads/2021/02/Pastor-Greg-Rounded-No-Border.png" alt="">
+                </div>
+
+                <h2 class = "center name-title">Greg Gibson</h2>
+                <h4 class = "subtitle">Church Planter, The World</h4>
+                <div class="social-icons">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                </div>
+                <p class = "left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat metus id nulla rutrum, nec consequat
+                    arcu porta. Aenean egestas mattis mauris, quis fermentum nulla condimentum ac. Duis vel risus placerat,
+                    ullamcorper mi et, varius justo. Integer eu erat ut nibh mollis tempus sed at velit. Sed ac lectus mattis,
+                    suscipit est vel, laoreet elit. Curabitur venenatis pretium venenatis. Ut eget volutpat magna, eget ultrices
+                    mi.</p>
+            </div>
         </div>
     </div>
 
+
+
     <div class="slanted slant-dark">
-        <div class="grid-x ">
+        <div class="grid-x">
             <div class="small-12 cell">
                 <h2 class = "dark-color-invert">Trying to be busy with the right things? We can help!</h2>
                 <h3 class = "dark-color-invert">Sign up for our newsletter.</h3>
