@@ -57,6 +57,13 @@ h3 {
   line-height: 1.2;
 }
 
+@media screen and (min-width: 64em) {
+  .large-title {
+    font-size: 9em;
+    line-height: 1;
+  }
+}
+
 .name-title {
   font-size: 1.2em;
 }

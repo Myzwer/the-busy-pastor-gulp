@@ -19,14 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Made some final adjustments for mobile, specifically to the header to make sure the title is single word / line.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Added tablet support for the header on frontpage.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_images.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_utility-classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_utility-classes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +107,7 @@
       <workItem from="1610465129322" duration="32738000" />
       <workItem from="1610945204328" duration="361000" />
       <workItem from="1611440257270" duration="19978000" />
-      <workItem from="1612137818901" duration="24198000" />
+      <workItem from="1612137818901" duration="27972000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -311,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612244367857</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary=":rocket: Added tablet support for the header on frontpage.">
+      <created>1612246238007</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1612246238007</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +338,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Got a working version of the navbar for mobile rolling. It is still static, so it will need to be adjusted later, as well as a desktop version." />
     <MESSAGE value="Some semblance of the header is done. It is responsive, but static. I'll have to inject the WP code in some time later." />
     <MESSAGE value="Still working on the navbar. Currently, the mobile version is dynamic with wordpress, but the :before arrow still isn't showing properly. Desktop will need to be converted to dynamic as well. Also added a function in functions.php that swaps text in the navbar for icons." />
     <MESSAGE value="Parent container had overflow hidden on, which was preventing my :before element from breaking out of its box. That is now fixed, adn the mobile version of the navbar functions as expected dynamically with WP friendly code." />
@@ -355,7 +362,8 @@
     <MESSAGE value=":hammer: Fixed the footer being covered by the nav on mobile." />
     <MESSAGE value=":hammer: Straight up forgot to add foundation to the about us section, so went back and added that." />
     <MESSAGE value=":hammer: Made some final adjustments for mobile, specifically to the header to make sure the title is single word / line." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Made some final adjustments for mobile, specifically to the header to make sure the title is single word / line." />
+    <MESSAGE value=":rocket: Added tablet support for the header on frontpage." />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Added tablet support for the header on frontpage." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">

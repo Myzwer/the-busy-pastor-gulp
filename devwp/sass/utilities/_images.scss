@@ -42,3 +42,12 @@
   z-index: 0;
   opacity: .5;
 }
+
+@media screen and (min-width: 64em) {
+  .large-logo {
+    right: -200px;
+    top: -30px;
+    width: 70%;
+    opacity: 1;
+  }
+}
