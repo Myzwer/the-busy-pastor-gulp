@@ -19,15 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Finished a rough mobile version of the header on the podcasts page.">
-      <change afterPath="$PROJECT_DIR$/devwp/sass/components/_card.scss" afterDir="false" />
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Got the podcast cards templated out. Will need to convert them to WP friendly code next.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +101,7 @@
       <workItem from="1610465129322" duration="32738000" />
       <workItem from="1610945204328" duration="361000" />
       <workItem from="1611440257270" duration="19978000" />
-      <workItem from="1612137818901" duration="36590000" />
+      <workItem from="1612137818901" duration="39698000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -333,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612286174819</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary=":rocket: Got the podcast cards templated out. Will need to convert them to WP friendly code next.">
+      <created>1612287854971</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1612287854971</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +353,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Parent container had overflow hidden on, which was preventing my :before element from breaking out of its box. That is now fixed, adn the mobile version of the navbar functions as expected dynamically with WP friendly code." />
     <MESSAGE value="Finished the desktop version of the navbar. It is now fully functional, minus the client wanting to update the icons." />
     <MESSAGE value=":x: Removed Gotham font that shipped with blueprint from project" />
     <MESSAGE value=":heavy_plus_sign: Added Vangard Font." />
@@ -377,7 +377,8 @@
     <MESSAGE value=":rocket: Added tablet support for the header on frontpage." />
     <MESSAGE value=":rocket: Added some semblance of desktop support for the front page. Plenty of small things to fix here and there, but the page is passable at least." />
     <MESSAGE value=":rocket: Finished a rough mobile version of the header on the podcasts page." />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Finished a rough mobile version of the header on the podcasts page." />
+    <MESSAGE value=":rocket: Got the podcast cards templated out. Will need to convert them to WP friendly code next." />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Got the podcast cards templated out. Will need to convert them to WP friendly code next." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">
