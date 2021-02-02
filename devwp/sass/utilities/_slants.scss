@@ -19,6 +19,7 @@
 @media screen and (min-width: 40em) {
   .slanted {
     padding: 6em 1em;
+    transform: skewY(6deg);
   }
 }
 
@@ -33,8 +34,10 @@
 @media screen and (min-width: 40em) {
   .slanted > * {
     text-align: center;
+    transform: skewY(-6deg);
   }
 }
+
 
 .slant-dark {
   background-color: $background;

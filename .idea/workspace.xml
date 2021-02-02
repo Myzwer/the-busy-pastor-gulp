@@ -19,13 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":scroll: Updated the theme name in all the pages that are currently being used on the website.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Adjusted placement on buttons for the header on blog page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_slants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_slants.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +107,7 @@
       <workItem from="1610465129322" duration="32738000" />
       <workItem from="1610945204328" duration="361000" />
       <workItem from="1611440257270" duration="19978000" />
-      <workItem from="1612137818901" duration="42161000" />
+      <workItem from="1612137818901" duration="43345000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -360,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612299913685</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary=":rocket: Adjusted placement on buttons for the header on blog page.">
+      <created>1612302215481</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1612302215481</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +387,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":art: Updated SCSS color palette." />
     <MESSAGE value=":art: Updated SCSS typography." />
     <MESSAGE value=":art: Updated SCSS buttons." />
     <MESSAGE value=":art: Updated SCSS Header Colors; No functionality changes." />
@@ -404,12 +411,13 @@
     <MESSAGE value=":rocket: Added PHP / WP loop support to the page, the posts now dynamically load in." />
     <MESSAGE value=":hammer: Fixed an issue on mobile where the slanted section overlapped onto the content. Also added hyperlink support to the (previously) inactive buttons at the top of the page." />
     <MESSAGE value=":scroll: Updated the theme name in all the pages that are currently being used on the website." />
-    <option name="LAST_COMMIT_MESSAGE" value=":scroll: Updated the theme name in all the pages that are currently being used on the website." />
+    <MESSAGE value=":rocket: Adjusted placement on buttons for the header on blog page." />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Adjusted placement on buttons for the header on blog page." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">
+    <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1600370564002" />
+    <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1612303010697" />
   </component>
 </project>

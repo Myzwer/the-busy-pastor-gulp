@@ -88,6 +88,12 @@
   margin-top: -50px;
 }
 
+@media screen and (min-width: 64em) {
+  .margin-pull-large {
+    margin-top: -10%;
+  }
+}
+
 //This is used on the blog page to force the buttons down on desktop
 @media screen and (min-width: 40em) {
   .button-push {
