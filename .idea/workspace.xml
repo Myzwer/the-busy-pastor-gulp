@@ -19,12 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Fixed an issue on mobile where the slanted section overlapped onto the content. Also added hyperlink support to the (previously) inactive buttons at the top of the page.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":scroll: Updated the theme name in all the pages that are currently being used on the website.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +106,7 @@
       <workItem from="1610465129322" duration="32738000" />
       <workItem from="1610945204328" duration="361000" />
       <workItem from="1611440257270" duration="19978000" />
-      <workItem from="1612137818901" duration="40396000" />
+      <workItem from="1612137818901" duration="42161000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -351,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612299626337</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary=":scroll: Updated the theme name in all the pages that are currently being used on the website.">
+      <created>1612299913685</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1612299913685</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +379,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":heavy_plus_sign: Added Vangard Font." />
     <MESSAGE value=":art: Updated SCSS color palette." />
     <MESSAGE value=":art: Updated SCSS typography." />
     <MESSAGE value=":art: Updated SCSS buttons." />
@@ -395,7 +403,8 @@
     <MESSAGE value=":rocket: Got the podcast cards templated out. Will need to convert them to WP friendly code next." />
     <MESSAGE value=":rocket: Added PHP / WP loop support to the page, the posts now dynamically load in." />
     <MESSAGE value=":hammer: Fixed an issue on mobile where the slanted section overlapped onto the content. Also added hyperlink support to the (previously) inactive buttons at the top of the page." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Fixed an issue on mobile where the slanted section overlapped onto the content. Also added hyperlink support to the (previously) inactive buttons at the top of the page." />
+    <MESSAGE value=":scroll: Updated the theme name in all the pages that are currently being used on the website." />
+    <option name="LAST_COMMIT_MESSAGE" value=":scroll: Updated the theme name in all the pages that are currently being used on the website." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">

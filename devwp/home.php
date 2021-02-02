@@ -16,10 +16,12 @@ get_header(); ?>
     <div class="content">
         <div class="grid-container inverted-background header-height full-width">
             <div class="grid-x">
-                <div class="small-8 cell">
-                    <h2 class="large-title">Busy Pastor Podcast</h2>
-                </div>
-                <div class="small-12 cell">
+                <div class="small-12 medium-6 cell">
+                    <div class="grid-x">
+                        <div class="small-8 cell">
+                            <h2 class="large-title">Busy Pastor Podcast</h2>
+                        </div>
+                    </div>
                     <h3>Be busy with the right things.</h3>
                     <p>Nam viverra risus sed erat cursus, at euismod ante
                         lacinia. Pellentesque mauris mi, vehicula eget enim a, viverra bibendum
@@ -27,7 +29,8 @@ get_header(); ?>
                         ex. Vestibulum semper elit tortor, et aliquet metus pulvinar dignissim.
                         Nulla varius mi id libero accumsan vehicula. Integer nec elementum est.</p>
                 </div>
-                <div class="small-12 cell button-width">
+
+                <div class="small-12 medium-6 button-push cell button-width">
                     <a href="#"><button class="btn btn-v2-dark"> Listen on Apple Podcasts</button></a>
                     <a href="#"><button class="btn btn-v2-dark"> Listen on Spotify</button></a>
                     <a href="#"><button class="btn btn-v2-dark"> Listen on Google Podcasts</button></a>

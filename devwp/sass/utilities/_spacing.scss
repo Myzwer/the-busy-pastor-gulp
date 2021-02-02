@@ -88,9 +88,13 @@
   margin-top: -50px;
 }
 
-.header-height {
-  height: 900px;
+//This is used on the blog page to force the buttons down on desktop
+@media screen and (min-width: 40em) {
+  .button-push {
+    margin-top: 15%;
+  }
 }
+
 
 
 // Content Adjustment on whole page - Desktop only
