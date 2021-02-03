@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Added next / previous post functionality to the single posts page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/single.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +104,7 @@
       <workItem from="1611440257270" duration="19978000" />
       <workItem from="1612137818901" duration="58451000" />
       <workItem from="1612369270936" duration="249000" />
-      <workItem from="1612369792337" duration="2600000" />
+      <workItem from="1612369792337" duration="4750000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -411,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612366287587</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary=":rocket: Added next / previous post functionality to the single posts page.">
+      <created>1612372815571</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1612372815571</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +433,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":heavy_plus_sign: Added the scss for the slanted sections, added a test section on the frontpage as well." />
     <MESSAGE value=":art: Updated the header on front-page.php." />
     <MESSAGE value=":hammer: WP Admin isn't loading when the replace function is active in functions.php. No clue why, but I disabled it for now to fix later. This of course breaks the header." />
     <MESSAGE value=":rocket: Created the mobile header on frontpage." />
@@ -455,7 +457,8 @@
     <MESSAGE value=":hammer: Fixed the  * redacted *  bug that was breaking the entire admin panel of wordpress despite the fact that it had no access to it." />
     <MESSAGE value=":scroll: Updated some comments as reminders for later." />
     <MESSAGE value=":rocket: Updated the header of the single posts page. Still not super happy with the way this is laid out, but it will have to do for now." />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Updated the header of the single posts page. Still not super happy with the way this is laid out, but it will have to do for now." />
+    <MESSAGE value=":rocket: Added next / previous post functionality to the single posts page." />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Added next / previous post functionality to the single posts page." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">

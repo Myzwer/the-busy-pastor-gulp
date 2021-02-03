@@ -40,8 +40,8 @@ get_header(); ?>
                                             tortor. Curabitur lacus dolor, feugiat in dolor quis, ultricies condimentum
                                             ex. Vestibulum semper elit tortor, et aliquet metus pulvinar dignissim.
                                             Nulla varius mi id libero accumsan vehicula. Integer nec elementum est.</p>
-                                        <button class="btn btn-v1"><span class="icon-icons8-play"></span> Watch Now
-                                        </button>
+                                        <a href="<?php the_field('button_url'); ?>"><button class="btn btn-v1"><span class="icon-icons8-play"></span> Watch Now
+                                        </button></a>
                                     </div>
                                 </div>
                             </div>

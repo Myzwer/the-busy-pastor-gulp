@@ -43,12 +43,13 @@ get_header(); ?>
                 </div>
 
                 <div class="small-12 medium-4 cell">
-                    <a href="<?php echo get_permalink( get_adjacent_post( false, '', false ) ); ?>"><button class="btn btn-v2-light"> Next Post</button></a>
+                    <a href="<?php echo get_permalink( get_adjacent_post( true, '', true ) ); ?>"><button class="btn btn-v2-light"> Next Episodes</button></a>
                 </div>
 
                 <div class="small-12 medium-4 cell">
                     <a href="/play"><button class="btn btn-v2-light"> All Episodes</button></a>
                 </div>
+
 
                 <div class="small-12 medium-4 cell">
                     <a href="<?php echo get_permalink( get_adjacent_post( false, '', true ) ); ?>"><button class="btn btn-v2-light"> Previous Episodes</button></a>
