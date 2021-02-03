@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Added an ACF field on the homepage to get the button working as its supposed to. Also updated the copy on the buttons on the single posts page.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Fixed a wiggle on the homepage on tablet, it is still there on desktop.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_utility-classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_utility-classes.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,7 @@
       <workItem from="1611440257270" duration="19978000" />
       <workItem from="1612137818901" duration="58451000" />
       <workItem from="1612369270936" duration="249000" />
-      <workItem from="1612369792337" duration="5164000" />
+      <workItem from="1612369792337" duration="6204000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -421,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612375158394</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary=":hammer: Fixed a wiggle on the homepage on tablet, it is still there on desktop.">
+      <created>1612375483179</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1612375483179</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +446,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: WP Admin isn't loading when the replace function is active in functions.php. No clue why, but I disabled it for now to fix later. This of course breaks the header." />
     <MESSAGE value=":rocket: Created the mobile header on frontpage." />
     <MESSAGE value=":hammer: Fixed an issue where the slant caused background to show behind the slant but under the image. Basically I removed a colored strip of background that wasn't suppposed to be seen." />
     <MESSAGE value=":art: Added the classes to center images and give them a border." />
@@ -465,7 +470,8 @@
     <MESSAGE value=":rocket: Updated the header of the single posts page. Still not super happy with the way this is laid out, but it will have to do for now." />
     <MESSAGE value=":rocket: Added next / previous post functionality to the single posts page." />
     <MESSAGE value=":hammer: Added an ACF field on the homepage to get the button working as its supposed to. Also updated the copy on the buttons on the single posts page." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Added an ACF field on the homepage to get the button working as its supposed to. Also updated the copy on the buttons on the single posts page." />
+    <MESSAGE value=":hammer: Fixed a wiggle on the homepage on tablet, it is still there on desktop." />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Fixed a wiggle on the homepage on tablet, it is still there on desktop." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">

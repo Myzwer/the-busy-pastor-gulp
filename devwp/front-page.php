@@ -34,7 +34,7 @@ get_header(); ?>
                             <div class="small-12 cell">
                                 <div class="grid-x">
                                     <div class="medium-8 large-10 cell">
-                                        <h3 class="dark-color-invert">Be busy with the right things.</h3>
+                                        <h3 class="dark-color-invert">Encouraging and equipping pastors to be busy with the right things.</h3>
                                         <p class="dark-color-invert">Nam viverra risus sed erat cursus, at euismod ante
                                             lacinia. Pellentesque mauris mi, vehicula eget enim a, viverra bibendum
                                             tortor. Curabitur lacus dolor, feugiat in dolor quis, ultricies condimentum
@@ -55,7 +55,7 @@ get_header(); ?>
         <div class="slanted slant-light margin-pull-large">
             <div class="grid-x grid-padding-x">
                 <div class="small-12 cell">
-                    <h2 class = "left">The Busy Pastors</h2>
+                    <h2 class = "left">About Us</h2>
                 </div>
 
                 <div class="small-12 medium-6 cell center">
@@ -92,7 +92,7 @@ get_header(); ?>
                     </div>
 
                     <h2 class="center name-title">Greg Gibson</h2>
-                    <h4 class="subtitle">Church Planter, The World</h4>
+                    <h4 class="subtitle">Church Planting Leader</h4>
                     <div class="social-icons">
                         <i class="fab fa-facebook-square"></i>
                         <i class="fab fa-instagram-square"></i>
@@ -115,8 +115,8 @@ get_header(); ?>
         <div class="slanted slant-dark">
             <div class="grid-x">
                 <div class="small-12 medium-6 left cell">
-                    <h2 class="dark-color-invert">Trying to be busy with the right things? We can help!</h2>
-                    <h3 class="dark-color-invert">Sign up for our newsletter.</h3>
+                    <h2 class="dark-color-invert">Trying to be busy with the right things? Join the community!</h2>
+                    <h3 class="dark-color-invert">Sign up for exclusive Busy Pastor content and resources!</h3>
                 </div>
 
                 <div class="small-12 medium-12 cell left">
