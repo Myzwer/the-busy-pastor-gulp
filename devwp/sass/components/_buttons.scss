@@ -71,15 +71,17 @@
   color: $primary;
   background-color: transparent;
   border-radius: 8px;
+  display: inline;
   position: relative;
   overflow: hidden;
   z-index: 1;
   transition: color 150ms ease-in-out;
   font-family: $main-font;
   min-height: 35px;
-  padding: 13px 120px;
-  min-width: 300px;
+  padding: 13px 10px;
+  width: 100%;
   text-align: center;
+  margin: 7px auto;
   text-transform: none;
 
   &:after {

@@ -19,13 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":scroll: Updated some comments as reminders for later.">
-      <change afterPath="$PROJECT_DIR$/devwp/sass/components/_video.scss" afterDir="false" />
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_buttons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/single.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +106,9 @@
       <workItem from="1610465129322" duration="32738000" />
       <workItem from="1610945204328" duration="361000" />
       <workItem from="1611440257270" duration="19978000" />
-      <workItem from="1612137818901" duration="55718000" />
+      <workItem from="1612137818901" duration="58451000" />
+      <workItem from="1612369270936" duration="249000" />
+      <workItem from="1612369792337" duration="2600000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -402,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612307143052</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary=":rocket: Updated the header of the single posts page. Still not super happy with the way this is laid out, but it will have to do for now.">
+      <created>1612366287587</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1612366287587</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +430,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":heavy_plus_sign: Added custom icons for the navbar. This required a switch in functions to change how they display, as well as some scss to changes in the header.scss file to manipulate them." />
     <MESSAGE value=":heavy_plus_sign: Added the scss for the slanted sections, added a test section on the frontpage as well." />
     <MESSAGE value=":art: Updated the header on front-page.php." />
     <MESSAGE value=":hammer: WP Admin isn't loading when the replace function is active in functions.php. No clue why, but I disabled it for now to fix later. This of course breaks the header." />
@@ -446,7 +454,8 @@
     <MESSAGE value=":hammer: Fixed the footer floating up too high on desktop. Mobile remains untouched." />
     <MESSAGE value=":hammer: Fixed the  * redacted *  bug that was breaking the entire admin panel of wordpress despite the fact that it had no access to it." />
     <MESSAGE value=":scroll: Updated some comments as reminders for later." />
-    <option name="LAST_COMMIT_MESSAGE" value=":scroll: Updated some comments as reminders for later." />
+    <MESSAGE value=":rocket: Updated the header of the single posts page. Still not super happy with the way this is laid out, but it will have to do for now." />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Updated the header of the single posts page. Still not super happy with the way this is laid out, but it will have to do for now." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">
