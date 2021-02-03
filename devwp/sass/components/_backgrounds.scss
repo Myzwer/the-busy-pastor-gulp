@@ -122,3 +122,14 @@ body {
     height: 85vh;
   }
 }
+
+
+.policy-height {
+  height: 500px;
+}
+
+@media screen and (min-width: 40em) {
+  .policy-height {
+    height: 700px;
+  }
+}
