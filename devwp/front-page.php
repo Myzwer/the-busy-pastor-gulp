@@ -14,7 +14,7 @@
 get_header(); ?>
 
 
-    <div class="content">
+    <div class="content overflow-hidden">
         <div class="grid-container full-width">
             <div class="grid-x grid-padding-x full-background background-desktop-adjust"
                  style="background: url(http://the-busy-pastor.local/wp-content/uploads/2021/02/Background-Texture.jpg);  background-position: center center;">

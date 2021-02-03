@@ -4,9 +4,9 @@
  * - Opacity
  * - Rounded Corners
  * - Box Shadow
- *
- *
- *
+ * - Box Shadow
+ * - Z-index
+ * - Overflow
  */
 
 
@@ -34,7 +34,12 @@
 
 
 // Z index
-
 .z-index-1 {
   z-index: 1;
+}
+
+
+//overflow
+.overflow-hidden {
+  overflow: hidden;
 }
