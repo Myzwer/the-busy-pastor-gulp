@@ -19,14 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":art: Gave the footer more room to breathe on mobile">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Adjusted the breakpoints on the header on play page to keep the mobile layout through tablet before changing at desktop.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,14 +110,7 @@
       <workItem from="1611440257270" duration="19978000" />
       <workItem from="1612137818901" duration="58451000" />
       <workItem from="1612369270936" duration="249000" />
-      <workItem from="1612369792337" duration="20461000" />
-    </task>
-    <task id="LOCAL-00006" summary="Got a working version of the navbar for mobile rolling. It is still static, so it will need to be adjusted later, as well as a desktop version.">
-      <created>1610553894352</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1610553894352</updated>
+      <workItem from="1612369792337" duration="22246000" />
     </task>
     <task id="LOCAL-00007" summary="Some semblance of the header is done. It is responsive, but static. I'll have to inject the WP code in some time later.">
       <created>1610569495998</created>
@@ -453,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612451556145</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary=":hammer: Adjusted the breakpoints on the header on play page to keep the mobile layout through tablet before changing at desktop.">
+      <created>1612452660283</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1612452660283</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +474,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":rocket: Added tablet support for the header on frontpage." />
     <MESSAGE value=":rocket: Added some semblance of desktop support for the front page. Plenty of small things to fix here and there, but the page is passable at least." />
     <MESSAGE value=":rocket: Finished a rough mobile version of the header on the podcasts page." />
     <MESSAGE value=":rocket: Got the podcast cards templated out. Will need to convert them to WP friendly code next." />
@@ -497,7 +498,8 @@
     <MESSAGE value=":hammer: Fixed various spacing things on the front-page. Mostly just doublechecking responsiveness and amking some tweaks for that." />
     <MESSAGE value=":rocket: Added ACF to the homepage, so it now updates dynamically." />
     <MESSAGE value=":art: Gave the footer more room to breathe on mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value=":art: Gave the footer more room to breathe on mobile" />
+    <MESSAGE value=":hammer: Adjusted the breakpoints on the header on play page to keep the mobile layout through tablet before changing at desktop." />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Adjusted the breakpoints on the header on play page to keep the mobile layout through tablet before changing at desktop." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">

@@ -95,7 +95,13 @@ body {
 
 @media screen and (min-width: 40em) {
   .header-height {
-    height: 97vh;
+    height: 110vh;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .header-height {
+    height: 130vh;
   }
 }
 

@@ -31,9 +31,16 @@ get_header(); ?>
                 </div>
 
                 <div class="small-12 medium-12 large-4 large-offset-1 button-push cell button-width">
-                    <a href="#"><button class="btn btn-v2-dark"> Listen on Apple Podcasts</button></a>
-                    <a href="#"><button class="btn btn-v2-dark"> Listen on Spotify</button></a>
-                    <a href="#"><button class="btn btn-v2-dark"> Listen on Google Podcasts</button></a>
+                    <a href="#">
+                        <button class="btn btn-v2-dark"> Listen on Apple Podcasts</button>
+                    </a>
+                    <a href="#">
+                        <button class="btn btn-v2-dark"> Listen on Spotify</button>
+                    </a>
+                    <a href="#">
+                        <button class="btn btn-v2-dark"> Listen on Google Podcasts</button>
+                    </a>
+                    <h3 class="center tiny-font">or anywhere you listen to podcasts!</h3>
                 </div>
             </div>
         </div>
@@ -42,6 +49,29 @@ get_header(); ?>
             <div class="grid-x">
                 <div class="small-12 cell">
                     <h2 class="left margin-top dark-color-invert">Video Episodes</h2>
+                </div>
+            </div>
+
+            <div class="margin-top featured-podcast-card">
+                <div class="grid-x">
+                    <?php $posts_query = new WP_Query('posts_per_page=1');
+                    while ($posts_query->have_posts()) : $posts_query->the_post();
+                        ?>
+                        <div class="small-12 medium-6 cell">
+                            <?php the_post_thumbnail(); ?>
+                        </div>
+                        <div class="small-12 medium-6 lr-padding cell">
+                            <h2><?php the_title(); ?></h2>
+                            <hr>
+                            <?php the_excerpt(); ?>
+                            <a class="no-margin" href="<?php the_permalink(); ?>">
+                                <button class="center btn btn-v1"><span class="icon-icons8-play"></span> Watch Now
+                                </button>
+                            </a>
+                        </div>
+
+                    <?php endwhile;
+                    wp_reset_query(); ?>
                 </div>
             </div>
 
