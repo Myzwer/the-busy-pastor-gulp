@@ -37,7 +37,7 @@ get_header(); ?>
                                         <h3 class="dark-color-invert">Encouraging and equipping pastors to be busy with
                                             the right things.</h3>
                                         <a href="<?php the_field('button_url'); ?>">
-                                            <button class="btn btn-v1"><span class="icon-icons8-play"></span> Watch The Latest Episode
+                                            <button class="btn btn-v1 padding-button"><span class="icon-icons8-play"></span> Watch The Latest Episode
                                             </button>
                                         </a>
                                     </div>
@@ -62,7 +62,7 @@ get_header(); ?>
                                 allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="small-12 medium-6 cell">
+                <div class="small-12 medium-6 margin-top cell">
                     <p class = "left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi architecto, at harum
                         ratione unde veniam. Dolor doloremque dolorum fuga nesciunt numquam odit sequi vitae. Adipisci
                         enim ex laborum perspiciatis.</p>

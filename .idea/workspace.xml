@@ -19,15 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":heavy_plus_sign: Added the code for the 404 page.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Added a video section to the homepage. This also required adding a new slant color background.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_buttons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_images.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_slants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_slants.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/variables/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/variables/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,14 +110,7 @@
       <workItem from="1611440257270" duration="19978000" />
       <workItem from="1612137818901" duration="58451000" />
       <workItem from="1612369270936" duration="249000" />
-      <workItem from="1612369792337" duration="14939000" />
-    </task>
-    <task id="LOCAL-00002" summary="Contact.php was living in the wrong spot, so I moved it to its correct folder.">
-      <created>1600362530674</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1600362530674</updated>
+      <workItem from="1612369792337" duration="15870000" />
     </task>
     <task id="LOCAL-00003" summary="Contact.php was living in the wrong spot, so I moved it to its correct folder.">
       <created>1600363493155</created>
@@ -454,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612385834159</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary=":rocket: Added a video section to the homepage. This also required adding a new slant color background.">
+      <created>1612420775246</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1612420775247</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +474,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":rocket: Added the form on the frontpage." />
     <MESSAGE value=":hammer: Fixed the footer being covered by the nav on mobile." />
     <MESSAGE value=":hammer: Straight up forgot to add foundation to the about us section, so went back and added that." />
     <MESSAGE value=":hammer: Made some final adjustments for mobile, specifically to the header to make sure the title is single word / line." />
@@ -498,7 +498,8 @@
     <MESSAGE value=":heavy_plus_sign: Added and styled the privacy policy page." />
     <MESSAGE value=":green_heart: Updated some comments on the backgrounds scss page." />
     <MESSAGE value=":heavy_plus_sign: Added the code for the 404 page." />
-    <option name="LAST_COMMIT_MESSAGE" value=":heavy_plus_sign: Added the code for the 404 page." />
+    <MESSAGE value=":rocket: Added a video section to the homepage. This also required adding a new slant color background." />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Added a video section to the homepage. This also required adding a new slant color background." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">
