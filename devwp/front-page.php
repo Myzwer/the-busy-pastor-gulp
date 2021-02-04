@@ -17,10 +17,10 @@ get_header(); ?>
     <div class="content overflow-hidden">
         <div class="grid-container full-width">
             <div class="grid-x grid-padding-x full-background background-desktop-adjust"
-                 style="background: url(http://the-busy-pastor.local/wp-content/uploads/2021/02/Background-Texture.jpg);  background-position: center center;">
+                 style="background: url(<?php the_field("background_image");?>);  background-position: center center;">
                 <div class="show-for-desktop">
                     <div class="absolute large-logo">
-                        <img src="http://the-busy-pastor.local/wp-content/uploads/2021/02/BP-logo.png" alt="">
+                        <img src="<?php the_field("floating_logo");?>" alt="Busy Pastor Logo Outline">
                     </div>
                 </div>
 
@@ -28,16 +28,15 @@ get_header(); ?>
                     <div class="padding-top lr-padding">
                         <div class="grid-x">
                             <div class="small-10 medium-3 large-1 cell">
-                                <h1 class="dark-color-invert large-title">The Busy Pastor</h1>
+                                <h1 class="dark-color-invert large-title"><?php the_field("site_title");?></h1>
                             </div>
 
                             <div class="small-12 cell">
                                 <div class="grid-x">
                                     <div class="medium-8 large-10 cell">
-                                        <h3 class="dark-color-invert">Encouraging and equipping pastors to be busy with
-                                            the right things.</h3>
+                                        <h3 class="dark-color-invert"><?php the_field("tagline");?></h3>
                                         <a href="<?php the_field('button_url'); ?>">
-                                            <button class="btn btn-v1 padding-button"><span class="icon-icons8-play"></span> Watch The Latest Episode
+                                            <button class="btn btn-v1 padding-button"><?php the_field("button_icon");?> <?php the_field("button_text");?>
                                             </button>
                                         </a>
                                     </div>
@@ -52,20 +51,16 @@ get_header(); ?>
         <div class="slanted slant-gray margin-pull-large">
             <div class="grid-x grid-padding-x">
                 <div class="small-12 cell">
-                    <h2 class="left light-color-invert">About The Busy Pastor</h2>
+                    <h2 class="left light-color-invert"><?php the_field("section_title");?></h2>
                 </div>
 
                 <div class="small-12 medium-6 cell">
                     <div class="video-container">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/03mYejnvvQg" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
+                        <?php the_field("video_embed");?>
                     </div>
                 </div>
                 <div class="small-12 medium-6 margin-top cell">
-                    <p class = "left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi architecto, at harum
-                        ratione unde veniam. Dolor doloremque dolorum fuga nesciunt numquam odit sequi vitae. Adipisci
-                        enim ex laborum perspiciatis.</p>
+                    <p class = "left"><?php the_field("video_paragraph");?></p>
                 </div>
             </div>
         </div>
@@ -74,67 +69,46 @@ get_header(); ?>
         <div class="slanted slant-light">
             <div class="grid-x grid-padding-x">
                 <div class="small-12 cell">
-                    <h2 class="left">About Us</h2>
+                    <h2 class="left"><?php the_field("bio_title");?></h2>
                 </div>
 
-                <div class="small-12 medium-6 cell center">
-                    <div class="padding-top-sm">
-                        <img class="mobile-image"
-                             src="http://the-busy-pastor.local/wp-content/uploads/2021/02/Pastor-Trent-Rounded-No-Border.png"
-                             alt="">
-                    </div>
+                <?php
+                if( have_rows('pastor_bio') ):
 
-                    <h2 class="center name-title">Dr. Trent Stewart</h2>
-                    <h4 class="subtitle">Lead Pastor, Foothills Church</h4>
-                    <div class="social-icons">
-                        <i class="fab fa-facebook-square"></i>
-                        <i class="fab fa-instagram-square"></i>
-                        <i class="fab fa-twitter-square"></i>
-                    </div>
-                    <p class="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat metus id
-                        nulla rutrum, nec consequat
-                        arcu porta. Aenean egestas mattis mauris, quis fermentum nulla condimentum ac. Duis vel risus
-                        placerat,
-                        ullamcorper mi et, varius justo. Integer eu erat ut nibh mollis tempus sed at velit. Sed ac
-                        lectus mattis,
-                        suscipit est vel, laoreet elit. Curabitur venenatis pretium venenatis. Ut eget volutpat magna,
-                        eget ultrices
-                        mi.</p>
-                </div>
+                    // Loop through rows.
+                    while( have_rows('pastor_bio') ) : the_row(); ?>
 
+                        <div class="small-12 medium-6 cell center">
+                            <div class="padding-top-sm">
+                                <img class="mobile-image"
+                                     src="<?php the_sub_field("pastor_photo");?>"
+                                     alt="Pastor Photo Headshot">
+                            </div>
 
-                <div class="small-12 medium-6 cell center">
-                    <div class="padding-top-sm">
-                        <img class="mobile-image"
-                             src="http://the-busy-pastor.local/wp-content/uploads/2021/02/Pastor-Greg-Rounded-No-Border.png"
-                             alt="">
-                    </div>
+                            <h2 class="center name-title"><?php the_sub_field("pastor_name");?></h2>
+                            <h4 class="subtitle"><?php the_sub_field("pastor_title");?></h4>
+                            <div class="social-icons">
+                                <a href="<?php the_sub_field("facebook_social_link");?>"><i class="fab fa-facebook-square"></i></a>
+                                <a href="<?php the_sub_field("instagram_social_link");?>"><i class="fab fa-instagram-square"></i></a>
+                                <a href="<?php the_sub_field("twitter_social_link");?>"><i class="fab fa-twitter-square"></i></a>
+                            </div>
+                            <p class="left"><?php the_sub_field("bio");?></p>
+                        </div>
 
-                    <h2 class="center name-title">Greg Gibson</h2>
-                    <h4 class="subtitle">Church Planting Leader</h4>
-                    <div class="social-icons">
-                        <i class="fab fa-facebook-square"></i>
-                        <i class="fab fa-instagram-square"></i>
-                        <i class="fab fa-twitter-square"></i>
-                    </div>
-                    <p class="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat metus id
-                        nulla rutrum, nec consequat
-                        arcu porta. Aenean egestas mattis mauris, quis fermentum nulla condimentum ac. Duis vel risus
-                        placerat,
-                        ullamcorper mi et, varius justo. Integer eu erat ut nibh mollis tempus sed at velit. Sed ac
-                        lectus mattis,
-                        suscipit est vel, laoreet elit. Curabitur venenatis pretium venenatis. Ut eget volutpat magna,
-                        eget ultrices
-                        mi.</p>
-                </div>
+                    <?php
+                    endwhile;
+                else :
+                    //don't display anything
+                endif;
+                ?>
             </div>
         </div>
 
         <div class="slanted slant-dark">
             <div class="grid-x">
                 <div class="small-12 medium-7 left cell">
-                    <h2 class="dark-color-invert">Trying to be busy with the right things? Join the community!</h2>
-                    <h3 class="dark-color-invert">Sign up for exclusive Busy Pastor content and resources!</h3>
+                    <h2 class="dark-color-invert"><?php the_field("form_title");?></h2>
+                    <h3 class="dark-color-invert"><?php the_field("form_subtitle");?></h3>
                 </div>
 
                 <div class="small-12 medium-12 cell left">
