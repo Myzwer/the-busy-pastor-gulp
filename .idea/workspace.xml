@@ -19,14 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Made the content on /single dynamic and added a download button, the page needs placement tweaking still.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/single.php" afterDir="false" />
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Reworked most of the single.php page, changed the header around, added a section for show notes / download button.">
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_buttons.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,14 +102,7 @@
       <workItem from="1611440257270" duration="19978000" />
       <workItem from="1612137818901" duration="58451000" />
       <workItem from="1612369270936" duration="249000" />
-      <workItem from="1612369792337" duration="28744000" />
-    </task>
-    <task id="LOCAL-00009" summary="Parent container had overflow hidden on, which was preventing my :before element from breaking out of its box. That is now fixed, adn the mobile version of the navbar functions as expected dynamically with WP friendly code.">
-      <created>1610634557950</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1610634557950</updated>
+      <workItem from="1612369792337" duration="28852000" />
     </task>
     <task id="LOCAL-00010" summary="Finished the desktop version of the navbar. It is now fully functional, minus the client wanting to update the icons.">
       <created>1610638181684</created>
@@ -453,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612457800246</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary=":rocket: Reworked most of the single.php page, changed the header around, added a section for show notes / download button.">
+      <created>1612462706429</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1612462706429</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +466,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":rocket: Got the podcast cards templated out. Will need to convert them to WP friendly code next." />
     <MESSAGE value=":rocket: Added PHP / WP loop support to the page, the posts now dynamically load in." />
     <MESSAGE value=":hammer: Fixed an issue on mobile where the slanted section overlapped onto the content. Also added hyperlink support to the (previously) inactive buttons at the top of the page." />
     <MESSAGE value=":scroll: Updated the theme name in all the pages that are currently being used on the website." />
@@ -497,7 +490,8 @@
     <MESSAGE value=":hammer: Adjusted the breakpoints on the header on play page to keep the mobile layout through tablet before changing at desktop." />
     <MESSAGE value=":rocket: Added a featured video section to the main play page." />
     <MESSAGE value=":hammer: Made the content on /single dynamic and added a download button, the page needs placement tweaking still." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Made the content on /single dynamic and added a download button, the page needs placement tweaking still." />
+    <MESSAGE value=":rocket: Reworked most of the single.php page, changed the header around, added a section for show notes / download button." />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Reworked most of the single.php page, changed the header around, added a section for show notes / download button." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">
