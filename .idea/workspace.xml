@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Fixed various spacing things on the front-page. Mostly just doublechecking responsiveness and amking some tweaks for that.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Added ACF to the homepage, so it now updates dynamically.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_footer.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,14 +103,7 @@
       <workItem from="1611440257270" duration="19978000" />
       <workItem from="1612137818901" duration="58451000" />
       <workItem from="1612369270936" duration="249000" />
-      <workItem from="1612369792337" duration="19062000" />
-    </task>
-    <task id="LOCAL-00004" summary="Completely reworked my scss file structure. Moved most of my files into a few folders and broke them apart into smaller files. This change was inpsired from changes I was making to nearly every project I worked on. The current structure had too many classes that could fit into one or more files, so this helps differentiate which classes should be in which files.">
-      <created>1600402473832</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1600402473832</updated>
+      <workItem from="1612369792337" duration="19352000" />
     </task>
     <task id="LOCAL-00005" summary="Updated the default font to be gotham instead of harbor, as this is used on more projects than harbour is. Also made a slight change to the class names of text-color flips to be more consistant with other projects.">
       <created>1606760461539</created>
@@ -452,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612421829865</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary=":rocket: Added ACF to the homepage, so it now updates dynamically.">
+      <created>1612451219149</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1612451219149</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +467,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: Straight up forgot to add foundation to the about us section, so went back and added that." />
     <MESSAGE value=":hammer: Made some final adjustments for mobile, specifically to the header to make sure the title is single word / line." />
     <MESSAGE value=":rocket: Added tablet support for the header on frontpage." />
     <MESSAGE value=":rocket: Added some semblance of desktop support for the front page. Plenty of small things to fix here and there, but the page is passable at least." />
@@ -496,7 +491,8 @@
     <MESSAGE value=":heavy_plus_sign: Added the code for the 404 page." />
     <MESSAGE value=":rocket: Added a video section to the homepage. This also required adding a new slant color background." />
     <MESSAGE value=":hammer: Fixed various spacing things on the front-page. Mostly just doublechecking responsiveness and amking some tweaks for that." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Fixed various spacing things on the front-page. Mostly just doublechecking responsiveness and amking some tweaks for that." />
+    <MESSAGE value=":rocket: Added ACF to the homepage, so it now updates dynamically." />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Added ACF to the homepage, so it now updates dynamically." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">
