@@ -19,16 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Adjusted the breakpoints on the header on play page to keep the mobile layout through tablet before changing at desktop.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Added a featured video section to the main play page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/single.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,14 +107,7 @@
       <workItem from="1611440257270" duration="19978000" />
       <workItem from="1612137818901" duration="58451000" />
       <workItem from="1612369270936" duration="249000" />
-      <workItem from="1612369792337" duration="22246000" />
-    </task>
-    <task id="LOCAL-00007" summary="Some semblance of the header is done. It is responsive, but static. I'll have to inject the WP code in some time later.">
-      <created>1610569495998</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1610569495998</updated>
+      <workItem from="1612369792337" duration="24380000" />
     </task>
     <task id="LOCAL-00008" summary="Still working on the navbar. Currently, the mobile version is dynamic with wordpress, but the :before arrow still isn't showing properly. Desktop will need to be converted to dynamic as well. Also added a function in functions.php that swaps text in the navbar for icons.">
       <created>1610603457431</created>
@@ -455,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612452660283</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary=":rocket: Added a featured video section to the main play page.">
+      <created>1612455658428</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1612455658428</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +471,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":rocket: Added some semblance of desktop support for the front page. Plenty of small things to fix here and there, but the page is passable at least." />
     <MESSAGE value=":rocket: Finished a rough mobile version of the header on the podcasts page." />
     <MESSAGE value=":rocket: Got the podcast cards templated out. Will need to convert them to WP friendly code next." />
     <MESSAGE value=":rocket: Added PHP / WP loop support to the page, the posts now dynamically load in." />
@@ -499,7 +495,8 @@
     <MESSAGE value=":rocket: Added ACF to the homepage, so it now updates dynamically." />
     <MESSAGE value=":art: Gave the footer more room to breathe on mobile" />
     <MESSAGE value=":hammer: Adjusted the breakpoints on the header on play page to keep the mobile layout through tablet before changing at desktop." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Adjusted the breakpoints on the header on play page to keep the mobile layout through tablet before changing at desktop." />
+    <MESSAGE value=":rocket: Added a featured video section to the main play page." />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Added a featured video section to the main play page." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">

@@ -114,7 +114,7 @@ body {
 
 //this class is used EXCLUSIVELY on the single page.
 .header-height-single {
-  height: 700px;
+  height: 120vh;
 }
 
 @media screen and (min-width: 40em) {
@@ -125,7 +125,7 @@ body {
 
 @media screen and (min-width: 70em) {
   .header-height-single {
-    height: 85vh;
+    height: 100vh;
   }
 }
 
