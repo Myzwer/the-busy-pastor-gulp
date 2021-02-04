@@ -19,9 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":green_heart: Updated some comments on the backgrounds scss page.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":heavy_plus_sign: Added the code for the 404 page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_slants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_slants.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/variables/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/variables/_colors.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +109,7 @@
       <workItem from="1611440257270" duration="19978000" />
       <workItem from="1612137818901" duration="58451000" />
       <workItem from="1612369270936" duration="249000" />
-      <workItem from="1612369792337" duration="9595000" />
-    </task>
-    <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
-      <created>1600362248990</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1600362248990</updated>
+      <workItem from="1612369792337" duration="14939000" />
     </task>
     <task id="LOCAL-00002" summary="Contact.php was living in the wrong spot, so I moved it to its correct folder.">
       <created>1600362530674</created>
@@ -448,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612384488990</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary=":heavy_plus_sign: Added the code for the 404 page.">
+      <created>1612385834158</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1612385834159</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +473,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":rocket: Finished the first iteration of the about us section on the homepage." />
     <MESSAGE value=":rocket: Added the form on the frontpage." />
     <MESSAGE value=":hammer: Fixed the footer being covered by the nav on mobile." />
     <MESSAGE value=":hammer: Straight up forgot to add foundation to the about us section, so went back and added that." />
@@ -492,7 +497,8 @@
     <MESSAGE value=":hammer: Copy updates on the homepage." />
     <MESSAGE value=":heavy_plus_sign: Added and styled the privacy policy page." />
     <MESSAGE value=":green_heart: Updated some comments on the backgrounds scss page." />
-    <option name="LAST_COMMIT_MESSAGE" value=":green_heart: Updated some comments on the backgrounds scss page." />
+    <MESSAGE value=":heavy_plus_sign: Added the code for the 404 page." />
+    <option name="LAST_COMMIT_MESSAGE" value=":heavy_plus_sign: Added the code for the 404 page." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">

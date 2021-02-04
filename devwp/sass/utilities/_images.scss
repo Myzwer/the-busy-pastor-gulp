@@ -38,16 +38,16 @@
 .large-logo {
   right: -20px;
   top: -30px;
-  width: 80%;
+  width: 70%;
   z-index: 0;
   opacity: .5;
 }
 
 @media screen and (min-width: 64em) {
   .large-logo {
-    right: -200px;
+    right: 0px;
     top: -30px;
-    width: 70%;
+    width: 40%;
     opacity: 1;
   }
 }

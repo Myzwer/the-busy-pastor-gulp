@@ -34,14 +34,12 @@ get_header(); ?>
                             <div class="small-12 cell">
                                 <div class="grid-x">
                                     <div class="medium-8 large-10 cell">
-                                        <h3 class="dark-color-invert">Encouraging and equipping pastors to be busy with the right things.</h3>
-                                        <p class="dark-color-invert">Nam viverra risus sed erat cursus, at euismod ante
-                                            lacinia. Pellentesque mauris mi, vehicula eget enim a, viverra bibendum
-                                            tortor. Curabitur lacus dolor, feugiat in dolor quis, ultricies condimentum
-                                            ex. Vestibulum semper elit tortor, et aliquet metus pulvinar dignissim.
-                                            Nulla varius mi id libero accumsan vehicula. Integer nec elementum est.</p>
-                                        <a href="<?php the_field('button_url'); ?>"><button class="btn btn-v1"><span class="icon-icons8-play"></span> Watch Now
-                                        </button></a>
+                                        <h3 class="dark-color-invert">Encouraging and equipping pastors to be busy with
+                                            the right things.</h3>
+                                        <a href="<?php the_field('button_url'); ?>">
+                                            <button class="btn btn-v1"><span class="icon-icons8-play"></span> Watch The Latest Episode
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -51,11 +49,32 @@ get_header(); ?>
             </div>
         </div>
 
-
-        <div class="slanted slant-light margin-pull-large">
+        <div class="slanted slant-gray margin-pull-large">
             <div class="grid-x grid-padding-x">
                 <div class="small-12 cell">
-                    <h2 class = "left">About Us</h2>
+                    <h2 class="left light-color-invert">About The Busy Pastor</h2>
+                </div>
+
+                <div class="small-12 medium-6 cell">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/03mYejnvvQg" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="small-12 medium-6 cell">
+                    <p class = "left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi architecto, at harum
+                        ratione unde veniam. Dolor doloremque dolorum fuga nesciunt numquam odit sequi vitae. Adipisci
+                        enim ex laborum perspiciatis.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="slanted slant-light">
+            <div class="grid-x grid-padding-x">
+                <div class="small-12 cell">
+                    <h2 class="left">About Us</h2>
                 </div>
 
                 <div class="small-12 medium-6 cell center">
@@ -111,10 +130,9 @@ get_header(); ?>
             </div>
         </div>
 
-
         <div class="slanted slant-dark">
             <div class="grid-x">
-                <div class="small-12 medium-6 left cell">
+                <div class="small-12 medium-7 left cell">
                     <h2 class="dark-color-invert">Trying to be busy with the right things? Join the community!</h2>
                     <h3 class="dark-color-invert">Sign up for exclusive Busy Pastor content and resources!</h3>
                 </div>
