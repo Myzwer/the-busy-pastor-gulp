@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Blog
+ * Template Name: Play Page
  *
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
@@ -23,11 +23,11 @@ get_header(); ?>
                         </div>
                     </div>
                     <h3>Be busy with the right things.</h3>
-                    <p>Nam viverra risus sed erat cursus, at euismod ante
-                        lacinia. Pellentesque mauris mi, vehicula eget enim a, viverra bibendum
-                        tortor. Curabitur lacus dolor, feugiat in dolor quis, ultricies condimentum
-                        ex. Vestibulum semper elit tortor, et aliquet metus pulvinar dignissim.
-                        Nulla varius mi id libero accumsan vehicula. Integer nec elementum est.</p>
+                    <p>The job description of the modern pastor is nothing short of impossible. From managing ministries
+                        and budgets, to preaching and counseling every week, to leading a staff and caring for your
+                        family, it’s all a recipe for disaster. Join Dr. Trent Stewart and Greg Gibson each week for The
+                        Busy Pastor Podcast, where they encourage and equip you to lead like never before. Yes, pastors
+                        should be busy, but we want you to be busy with the right things.</p>
                 </div>
 
                 <div class="small-12 medium-12 large-4 large-offset-1 button-push cell button-width">
@@ -63,7 +63,7 @@ get_header(); ?>
                         <div class="small-12 medium-6 lr-padding cell">
                             <h2><?php the_title(); ?></h2>
                             <hr>
-                            <?php the_excerpt(); ?>
+                            <div  class = "left"><?php the_excerpt(); ?></div>
                             <a class="no-margin" href="<?php the_permalink(); ?>">
                                 <button class="center btn btn-v1"><span class="icon-icons8-play"></span> Watch Now
                                 </button>
@@ -86,7 +86,7 @@ get_header(); ?>
                     <div class="left">
                         <h2><?php the_title(); ?></h2>
                         <h3>Episode X</h3>
-                        <p><?php the_excerpt(); ?></p>
+                        <p class = "left"><?php the_excerpt(); ?></p>
                         <a href="<?php the_permalink(); ?>">
                             <button class="btn btn-v1"><span class="icon-icons8-play"></span> Watch Now</button>
                         </a>
