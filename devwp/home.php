@@ -16,10 +16,10 @@ get_header(); ?>
     <div class="content">
         <div class="grid-container inverted-background header-height full-width">
             <div class="grid-x">
-                <div class="small-12 medium-6 large-offset-1 large-6 cell">
+                <div class="small-12 medium-12 large-offset-1 large-6 cell">
                     <div class="grid-x">
                         <div class="small-2 cell">
-                            <h2 class="large-title">Busy Pastor Podcast</h2>
+                            <h2 class="large-title">The Busy Pastor Podcast</h2>
                         </div>
                     </div>
                     <h3>Be busy with the right things.</h3>
@@ -30,7 +30,7 @@ get_header(); ?>
                         Nulla varius mi id libero accumsan vehicula. Integer nec elementum est.</p>
                 </div>
 
-                <div class="small-12 medium-6 large-4 large-offset-1 button-push cell button-width">
+                <div class="small-12 medium-12 large-4 large-offset-1 button-push cell button-width">
                     <a href="#"><button class="btn btn-v2-dark"> Listen on Apple Podcasts</button></a>
                     <a href="#"><button class="btn btn-v2-dark"> Listen on Spotify</button></a>
                     <a href="#"><button class="btn btn-v2-dark"> Listen on Google Podcasts</button></a>

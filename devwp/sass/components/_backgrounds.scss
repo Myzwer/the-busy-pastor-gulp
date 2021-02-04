@@ -90,18 +90,18 @@ body {
 
 //this class is used EXCLUSIVELY on the blog page.
 .header-height {
-  height: 900px;
+  height: 1050px;
 }
 
 @media screen and (min-width: 40em) {
   .header-height {
-    height: 760px;
+    height: 97vh;
   }
 }
 
 @media screen and (min-width: 70em) {
   .header-height {
-    height: 98vh;
+    height: 115vh;
   }
 }
 
