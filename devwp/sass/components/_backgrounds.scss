@@ -23,19 +23,18 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  height: 650px;
+  //height: 650px;
   position: relative;
+  padding-bottom: 120px;
 }
 
 @media screen and (min-width: 64em) {
   .background-desktop-adjust {
-    height: 900px;
+    padding-bottom: 20%;
   }
 }
 
-.full-background-xl {
-  height: 100vh;
-}
+
 
 
 //*********************************************
