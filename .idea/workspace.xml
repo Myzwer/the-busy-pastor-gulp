@@ -19,12 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Fixed the header on the play page to have more consistent height on the header. It shouldn't have tons of extra padding anymore.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Fixed the header on the front page to have more consistent height on the header. It shouldn't have tons of extra padding anymore.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_images.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,14 +107,7 @@
       <workItem from="1612137818901" duration="58451000" />
       <workItem from="1612369270936" duration="249000" />
       <workItem from="1612369792337" duration="34026000" />
-      <workItem from="1612816182500" duration="2440000" />
-    </task>
-    <task id="LOCAL-00014" summary=":art: Updated SCSS typography.">
-      <created>1611446692509</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1611446692509</updated>
+      <workItem from="1612816182500" duration="4746000" />
     </task>
     <task id="LOCAL-00015" summary=":art: Updated SCSS buttons.">
       <created>1611451326717</created>
@@ -452,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612818329867</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary=":hammer: Fixed the header on the front page to have more consistent height on the header. It shouldn't have tons of extra padding anymore.">
+      <created>1612818935635</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1612818935635</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +471,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":rocket: Added intial support for tablet and desktop to entire page. Will probably need tweaks later. But it works for now if you don't look too hard." />
     <MESSAGE value=":hammer: Fixed the cards on blog page that decided to center align when it hit tablet size." />
     <MESSAGE value=":hammer: Fixed the footer floating up too high on desktop. Mobile remains untouched." />
     <MESSAGE value=":hammer: Fixed the  * redacted *  bug that was breaking the entire admin panel of wordpress despite the fact that it had no access to it." />
@@ -496,7 +495,8 @@
     <MESSAGE value=":hammer: Switched some things around on the play page, mostly making sure it was dynamic. ACF still won't work, need to figure that out." />
     <MESSAGE value=":hammer: Added extra column spacing to the frontpage header to match the play page on desktop. Also added padding on the play page header to match the frontpage." />
     <MESSAGE value=":hammer: Fixed the header on the play page to have more consistent height on the header. It shouldn't have tons of extra padding anymore." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Fixed the header on the play page to have more consistent height on the header. It shouldn't have tons of extra padding anymore." />
+    <MESSAGE value=":hammer: Fixed the header on the front page to have more consistent height on the header. It shouldn't have tons of extra padding anymore." />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Fixed the header on the front page to have more consistent height on the header. It shouldn't have tons of extra padding anymore." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">

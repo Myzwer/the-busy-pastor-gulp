@@ -42,16 +42,17 @@
 .large-logo {
   right: -20px;
   top: -30px;
-  width: 70%;
+  width: 400px;
   z-index: 0;
   opacity: .5;
 }
 
 @media screen and (min-width: 64em) {
   .large-logo {
-    right: 150px;
+    right: 100px;
     top: -30px;
-    width: 35%;
+    width: 500px;
+    z-index: 0;
     opacity: 1;
   }
 }
