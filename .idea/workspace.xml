@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Switched some things around on the play page, mostly making sure it was dynamic. ACF still won't work, need to figure that out.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Added extra column spacing to the frontpage header to match the play page on desktop. Also added padding on the play page header to match the frontpage.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,14 +107,7 @@
       <workItem from="1612137818901" duration="58451000" />
       <workItem from="1612369270936" duration="249000" />
       <workItem from="1612369792337" duration="34026000" />
-      <workItem from="1612816182500" duration="513000" />
-    </task>
-    <task id="LOCAL-00012" summary=":heavy_plus_sign: Added Vangard Font.">
-      <created>1611442518477</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1611442518477</updated>
+      <workItem from="1612816182500" duration="1768000" />
     </task>
     <task id="LOCAL-00013" summary=":art: Updated SCSS color palette.">
       <created>1611443789555</created>
@@ -450,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612474591949</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary=":hammer: Added extra column spacing to the frontpage header to match the play page on desktop. Also added padding on the play page header to match the frontpage.">
+      <created>1612816895678</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1612816895678</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +471,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":scroll: Updated the theme name in all the pages that are currently being used on the website." />
     <MESSAGE value=":rocket: Adjusted placement on buttons for the header on blog page." />
     <MESSAGE value=":rocket: Added intial support for tablet and desktop to entire page. Will probably need tweaks later. But it works for now if you don't look too hard." />
     <MESSAGE value=":hammer: Fixed the cards on blog page that decided to center align when it hit tablet size." />
@@ -494,7 +495,8 @@
     <MESSAGE value=":rocket: Reworked most of the single.php page, changed the header around, added a section for show notes / download button." />
     <MESSAGE value=":art: Added a bit of spacing between the buttons and thier icons." />
     <MESSAGE value=":hammer: Switched some things around on the play page, mostly making sure it was dynamic. ACF still won't work, need to figure that out." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Switched some things around on the play page, mostly making sure it was dynamic. ACF still won't work, need to figure that out." />
+    <MESSAGE value=":hammer: Added extra column spacing to the frontpage header to match the play page on desktop. Also added padding on the play page header to match the frontpage." />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Added extra column spacing to the frontpage header to match the play page on desktop. Also added padding on the play page header to match the frontpage." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">

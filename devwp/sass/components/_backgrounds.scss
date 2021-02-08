@@ -90,26 +90,17 @@ body {
 
 //this class is used EXCLUSIVELY on the blog page.
 .header-height {
-  height: 1050px;
-}
-
-@media screen and (min-width: 40em) {
-  .header-height {
-    height: 110vh;
-  }
+  //height: 1050px;
+  padding-bottom: 150px;
 }
 
 @media screen and (min-width: 60em) {
   .header-height {
-    height: 130vh;
+    padding-bottom: 20%;
   }
 }
 
-@media screen and (min-width: 70em) {
-  .header-height {
-    height: 115vh;
-  }
-}
+
 
 
 //this class is used EXCLUSIVELY on the single page.
