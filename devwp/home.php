@@ -15,7 +15,7 @@ get_header(); ?>
 
     <div class="content">
         <div class="grid-container inverted-background header-height full-width">
-            <div class="grid-x">
+            <div class="grid-x  lr-padding">
                 <div class="small-12 medium-12 large-offset-1 large-6 cell">
                     <div class="grid-x">
                         <div class="small-2 cell">

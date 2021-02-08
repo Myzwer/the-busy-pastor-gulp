@@ -27,13 +27,13 @@ get_header(); ?>
                 <div class="small-12 cell z-index-1">
                     <div class="padding-top lr-padding">
                         <div class="grid-x">
-                            <div class="small-10 medium-3 large-1 cell">
+                            <div class="small-10 medium-3 large-offset-1 large-1 cell">
                                 <h1 class="dark-color-invert large-title"><?php the_field("site_title");?></h1>
                             </div>
 
                             <div class="small-12 cell">
                                 <div class="grid-x">
-                                    <div class="medium-8 large-10 cell">
+                                    <div class="medium-8 large-offset-1 large-10 cell">
                                         <h3 class="dark-color-invert"><?php the_field("tagline");?></h3>
                                         <a href="<?php the_field('button_url'); ?>">
                                             <button class="btn btn-v1 padding-button"><?php the_field("button_icon");?> <?php the_field("button_text");?>
