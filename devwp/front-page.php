@@ -119,6 +119,9 @@ get_header(); ?>
                         <p>Sorry, no posts matched your criteria.</p>
                     <?php endif; ?>
                 </div>
+                <div class="small-12 medium-7 left cell">
+                    <p class = "dark-color-invert">Have further questions? Contact us at <a class = "yellow" href="info@busypastor.org">info@busypastor.org.</a></p>
+                </div>
             </div>
         </div>
 
