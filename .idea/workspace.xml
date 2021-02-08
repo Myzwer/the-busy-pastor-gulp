@@ -19,13 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Set the width of the outline logo on the frontpage to be static so that it is more consistent in its placement.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_colors.scss" afterDir="false" />
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Added a small section below the form with a mailto link for people who dont want to fill out the form.">
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_forms.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,14 +103,7 @@
       <workItem from="1612137818901" duration="58451000" />
       <workItem from="1612369270936" duration="249000" />
       <workItem from="1612369792337" duration="34026000" />
-      <workItem from="1612816182500" duration="5685000" />
-    </task>
-    <task id="LOCAL-00016" summary=":art: Updated SCSS Header Colors; No functionality changes.">
-      <created>1611453985267</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1611453985267</updated>
+      <workItem from="1612816182500" duration="5899000" />
     </task>
     <task id="LOCAL-00017" summary=":rocket: Changed the Footer to only have copyright and one link since the site is so small.">
       <created>1611462925896</created>
@@ -453,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612821804911</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary=":rocket: Added a small section below the form with a mailto link for people who dont want to fill out the form.">
+      <created>1612822617011</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1612822617011</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +467,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: Fixed the footer floating up too high on desktop. Mobile remains untouched." />
     <MESSAGE value=":hammer: Fixed the  * redacted *  bug that was breaking the entire admin panel of wordpress despite the fact that it had no access to it." />
     <MESSAGE value=":scroll: Updated some comments as reminders for later." />
     <MESSAGE value=":rocket: Updated the header of the single posts page. Still not super happy with the way this is laid out, but it will have to do for now." />
@@ -497,7 +491,8 @@
     <MESSAGE value=":hammer: Fixed the header on the play page to have more consistent height on the header. It shouldn't have tons of extra padding anymore." />
     <MESSAGE value=":hammer: Fixed the header on the front page to have more consistent height on the header. It shouldn't have tons of extra padding anymore." />
     <MESSAGE value=":hammer: Set the width of the outline logo on the frontpage to be static so that it is more consistent in its placement." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Set the width of the outline logo on the frontpage to be static so that it is more consistent in its placement." />
+    <MESSAGE value=":rocket: Added a small section below the form with a mailto link for people who dont want to fill out the form." />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Added a small section below the form with a mailto link for people who dont want to fill out the form." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">
