@@ -13,34 +13,34 @@
 
 get_header(); ?>
 
+
+
     <div class="content">
         <div class="grid-container inverted-background header-height full-width">
             <div class="grid-x  lr-padding">
                 <div class="small-12 medium-12 large-offset-1 large-6 cell">
                     <div class="grid-x">
                         <div class="small-2 cell">
-                            <h2 class="large-title">The Busy Pastor Podcast</h2>
+                            <h2 class="large-title">
+                                <?php the_field('page_title', get_option('page_for_posts')); ?>
+                            </h2>
                         </div>
                     </div>
-                    <h3>Be busy with the right things.</h3>
-                    <p>The job description of the modern pastor is nothing short of impossible. From managing ministries
-                        and budgets, to preaching and counseling every week, to leading a staff and caring for your
-                        family, it’s all a recipe for disaster. Join Dr. Trent Stewart and Greg Gibson each week for The
-                        Busy Pastor Podcast, where they encourage and equip you to lead like never before. Yes, pastors
-                        should be busy, but we want you to be busy with the right things.</p>
+                    <h3><?php the_field('tagline', get_option('page_for_posts')); ?></h3>
+                    <p><?php the_field('header_paragraph', get_option('page_for_posts')); ?></p>
                 </div>
 
                 <div class="small-12 medium-12 large-4 large-offset-1 button-push cell button-width">
-                    <a href="#">
-                        <button class="btn btn-v2-dark"> Listen on Apple Podcasts</button>
+                    <a href="<?php the_field('button_link_1', get_option('page_for_posts')); ?>">
+                        <button class="btn btn-v2-dark"> <?php the_field('button_text_1', get_option('page_for_posts')); ?></button>
                     </a>
-                    <a href="#">
-                        <button class="btn btn-v2-dark"> Listen on Spotify</button>
+                    <a href="<?php the_field('button_link_2', get_option('page_for_posts')); ?>">
+                        <button class="btn btn-v2-dark"> <?php the_field('button_text_1', get_option('page_for_posts')); ?></button>
                     </a>
-                    <a href="#">
-                        <button class="btn btn-v2-dark"> Listen on Google Podcasts</button>
+                    <a href="<?php the_field('button_link_3', get_option('page_for_posts')); ?>">
+                        <button class="btn btn-v2-dark"> <?php the_field('button_text_1', get_option('page_for_posts')); ?></button>
                     </a>
-                    <h3 class="center tiny-font">or anywhere you listen to podcasts!</h3>
+                    <h3 class="center tiny-font"><?php the_field('small_tag', get_option('page_for_posts')); ?></h3>
                 </div>
             </div>
         </div>
