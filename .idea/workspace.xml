@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Fixed a bug on the frontpage where a border on the submit button was making the button size increase on hover.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: After a ton of troubleshooting, I added ACF to the play page, so all the content is now dynamic.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/home.php" afterDir="false" />
     </list>
@@ -105,14 +105,7 @@
       <workItem from="1612369270936" duration="249000" />
       <workItem from="1612369792337" duration="34026000" />
       <workItem from="1612816182500" duration="6576000" />
-      <workItem from="1612974477052" duration="2644000" />
-    </task>
-    <task id="LOCAL-00018" summary=":art: Updated the SCSS on the footer.">
-      <created>1611463405962</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1611463405962</updated>
+      <workItem from="1612974477052" duration="2870000" />
     </task>
     <task id="LOCAL-00019" summary=":heavy_plus_sign: Added custom icons for the navbar. This required a switch in functions to change how they display, as well as some scss to changes in the header.scss file to manipulate them.">
       <created>1612069118341</created>
@@ -450,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612822787127</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary=":rocket: After a ton of troubleshooting, I added ACF to the play page, so all the content is now dynamic.">
+      <created>1612978509712</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1612978509712</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +469,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":scroll: Updated some comments as reminders for later." />
     <MESSAGE value=":rocket: Updated the header of the single posts page. Still not super happy with the way this is laid out, but it will have to do for now." />
     <MESSAGE value=":rocket: Added next / previous post functionality to the single posts page." />
     <MESSAGE value=":hammer: Added an ACF field on the homepage to get the button working as its supposed to. Also updated the copy on the buttons on the single posts page." />
@@ -494,7 +493,8 @@
     <MESSAGE value=":hammer: Set the width of the outline logo on the frontpage to be static so that it is more consistent in its placement." />
     <MESSAGE value=":rocket: Added a small section below the form with a mailto link for people who dont want to fill out the form." />
     <MESSAGE value=":hammer: Fixed a bug on the frontpage where a border on the submit button was making the button size increase on hover." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Fixed a bug on the frontpage where a border on the submit button was making the button size increase on hover." />
+    <MESSAGE value=":rocket: After a ton of troubleshooting, I added ACF to the play page, so all the content is now dynamic." />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: After a ton of troubleshooting, I added ACF to the play page, so all the content is now dynamic." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">

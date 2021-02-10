@@ -31,14 +31,14 @@ get_header(); ?>
                 </div>
 
                 <div class="small-12 medium-12 large-4 large-offset-1 button-push cell button-width">
-                    <a href="<?php the_field('button_link_1', get_option('page_for_posts')); ?>">
-                        <button class="btn btn-v2-dark"> <?php the_field('button_text_1', get_option('page_for_posts')); ?></button>
+                    <a href="<?php the_field('button_link_1', get_option('page_for_posts')); ?>" target="_blank">
+                        <button class="btn btn-v2-dark"> <?php the_field('button_text_1', get_option('page_for_posts')); ?> <i class="fas fa-external-link-alt"></i></button>
                     </a>
-                    <a href="<?php the_field('button_link_2', get_option('page_for_posts')); ?>">
-                        <button class="btn btn-v2-dark"> <?php the_field('button_text_1', get_option('page_for_posts')); ?></button>
+                    <a href="<?php the_field('button_link_2', get_option('page_for_posts')); ?>" target="_blank">
+                        <button class="btn btn-v2-dark"> <?php the_field('button_text_1', get_option('page_for_posts')); ?> <i class="fas fa-external-link-alt"></i></button>
                     </a>
-                    <a href="<?php the_field('button_link_3', get_option('page_for_posts')); ?>">
-                        <button class="btn btn-v2-dark"> <?php the_field('button_text_1', get_option('page_for_posts')); ?></button>
+                    <a href="<?php the_field('button_link_3', get_option('page_for_posts')); ?>"target="_blank">
+                        <button class="btn btn-v2-dark"> <?php the_field('button_text_1', get_option('page_for_posts')); ?> <i class="fas fa-external-link-alt"></i></button>
                     </a>
                     <h3 class="center tiny-font"><?php the_field('small_tag', get_option('page_for_posts')); ?></h3>
                 </div>
