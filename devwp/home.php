@@ -85,7 +85,7 @@ get_header(); ?>
 
                     <div class="left">
                         <h2><?php the_title(); ?></h2>
-                        <h3>Episode X</h3>
+                        <h3>Episode <?php $variable = get_field('episode_number', $post->ID); echo $variable;?> <!-- Grabs the field from the single post--></h3>
                         <p class = "left"><?php the_excerpt(); ?></p>
                         <a href="<?php the_permalink(); ?>">
                             <button class="btn btn-v1"><span class="icon-icons8-play"></span> Watch Now</button>
