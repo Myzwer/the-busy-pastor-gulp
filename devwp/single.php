@@ -71,9 +71,11 @@ get_header(); ?>
                 </div>
 
                 <div class="small-12 medium-4 cell">
-                    <a href="<?php echo get_permalink(get_adjacent_post(true, '', true)); ?>">
-                        <button class="btn btn-v2-light"> Next Episodes</button>
+                <?php if (strlen(get_next_post()->post_title) > 0) { ?> <!-- Check if next post exists -->
+                    <a href="<?php echo get_permalink(get_adjacent_post(false, '', false)); ?>"> <!-- Get link of next post-->
+                        <button class="btn btn-v2-light"> Next Episode</button>
                     </a>
+                <?php } ?>
                 </div>
 
                 <div class="small-12 medium-4 cell">
@@ -84,9 +86,11 @@ get_header(); ?>
 
 
                 <div class="small-12 medium-4 cell">
-                    <a href="<?php echo get_permalink(get_adjacent_post(false, '', true)); ?>">
-                        <button class="btn btn-v2-light"> Previous Episodes</button>
-                    </a>
+                    <?php if (strlen(get_previous_post()->post_title) > 0) { ?> <!-- Check if previous post exists -->
+                        <a href="<?php echo get_permalink(get_adjacent_post(false, '', true)); ?>"> <!-- Get link of next post -->
+                            <button class="btn btn-v2-light"> Previous Episode</button>
+                        </a>
+                    <?php } ?>
                 </div>
 
             </div>

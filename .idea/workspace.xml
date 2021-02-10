@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Updated the ACF fields on the play page because they got duplicated but not changed. They are now showing the correct content.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Made the episode counter sync with the single posts page, so the episode changes dynamically on the play page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/single.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,14 +105,7 @@
       <workItem from="1612369270936" duration="249000" />
       <workItem from="1612369792337" duration="34026000" />
       <workItem from="1612816182500" duration="6576000" />
-      <workItem from="1612974477052" duration="4203000" />
-    </task>
-    <task id="LOCAL-00021" summary=":hammer: WP Admin isn't loading when the replace function is active in functions.php. No clue why, but I disabled it for now to fix later. This of course breaks the header.">
-      <created>1612139466073</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1612139466073</updated>
+      <workItem from="1612974477052" duration="4992000" />
     </task>
     <task id="LOCAL-00022" summary=":rocket: Created the mobile header on frontpage.">
       <created>1612152348014</created>
@@ -450,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612980043740</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary=":rocket: Made the episode counter sync with the single posts page, so the episode changes dynamically on the play page.">
+      <created>1612981105427</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1612981105427</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +469,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: Added an ACF field on the homepage to get the button working as its supposed to. Also updated the copy on the buttons on the single posts page." />
     <MESSAGE value=":hammer: Fixed a wiggle on the homepage on tablet, it is still there on desktop." />
     <MESSAGE value=":hammer: Copy updates on the homepage." />
     <MESSAGE value=":heavy_plus_sign: Added and styled the privacy policy page." />
@@ -494,7 +493,8 @@
     <MESSAGE value=":rocket: After a ton of troubleshooting, I added ACF to the play page, so all the content is now dynamic." />
     <MESSAGE value=":rocket: Made the button links on play pop out into a new tab when clicked. Also added icons to convey this for UX." />
     <MESSAGE value=":hammer: Updated the ACF fields on the play page because they got duplicated but not changed. They are now showing the correct content." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Updated the ACF fields on the play page because they got duplicated but not changed. They are now showing the correct content." />
+    <MESSAGE value=":rocket: Made the episode counter sync with the single posts page, so the episode changes dynamically on the play page." />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Made the episode counter sync with the single posts page, so the episode changes dynamically on the play page." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">
