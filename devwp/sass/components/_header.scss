@@ -117,7 +117,8 @@
     position: fixed;
     height: 100%;
     overflow: auto;
-    z-index: 99999;
+    z-index: 100;
+    //-webkit-transform: translateY(0);
     width: 75px;
     display: block;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -149,21 +150,17 @@
   }
 }
 
-
-  $arrow-size: 20px;
-  $arrow-color: $dark;
-
   .current-menu-item:before {
-    position: fixed;
     content: "";
+    position: fixed;
     display: block;
     width: 0;
     height: 0;
     margin-left: 75px;
     margin-top: 12px;
-    border: $arrow-size solid transparent;
-    border-left: $arrow-size solid $arrow-color;
-
+    border: 20px solid transparent;
+    border-left: 20px solid $dark;
+    z-index: 200;
   }
 }
 

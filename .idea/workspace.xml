@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Made the episode counter sync with the single posts page, so the episode changes dynamically on the play page.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Fixed the buttons on single that weren't going to the next and previous post properly, also added php to make them hide and show depending on if the next or previous post exists.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,14 +108,7 @@
       <workItem from="1612369270936" duration="249000" />
       <workItem from="1612369792337" duration="34026000" />
       <workItem from="1612816182500" duration="6576000" />
-      <workItem from="1612974477052" duration="4992000" />
-    </task>
-    <task id="LOCAL-00022" summary=":rocket: Created the mobile header on frontpage.">
-      <created>1612152348014</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1612152348014</updated>
+      <workItem from="1612974477052" duration="11937000" />
     </task>
     <task id="LOCAL-00023" summary=":hammer: Fixed an issue where the slant caused background to show behind the slant but under the image. Basically I removed a colored strip of background that wasn't suppposed to be seen.">
       <created>1612193227848</created>
@@ -450,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612981105427</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary=":rocket: Fixed the buttons on single that weren't going to the next and previous post properly, also added php to make them hide and show depending on if the next or previous post exists.">
+      <created>1612981741308</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1612981741308</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +472,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: Fixed a wiggle on the homepage on tablet, it is still there on desktop." />
     <MESSAGE value=":hammer: Copy updates on the homepage." />
     <MESSAGE value=":heavy_plus_sign: Added and styled the privacy policy page." />
     <MESSAGE value=":green_heart: Updated some comments on the backgrounds scss page." />
@@ -494,7 +496,8 @@
     <MESSAGE value=":rocket: Made the button links on play pop out into a new tab when clicked. Also added icons to convey this for UX." />
     <MESSAGE value=":hammer: Updated the ACF fields on the play page because they got duplicated but not changed. They are now showing the correct content." />
     <MESSAGE value=":rocket: Made the episode counter sync with the single posts page, so the episode changes dynamically on the play page." />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Made the episode counter sync with the single posts page, so the episode changes dynamically on the play page." />
+    <MESSAGE value=":rocket: Fixed the buttons on single that weren't going to the next and previous post properly, also added php to make them hide and show depending on if the next or previous post exists." />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Fixed the buttons on single that weren't going to the next and previous post properly, also added php to make them hide and show depending on if the next or previous post exists." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">
