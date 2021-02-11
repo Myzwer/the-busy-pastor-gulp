@@ -2,6 +2,7 @@
  * Spacing
  * =================================
  * - Headshots
+ * - Animated Image
  * - Icons
  *
  *
@@ -15,7 +16,23 @@
   margin-right: auto;
   width: 60%;
   border-radius: 100%;
-  border: 10px solid $dark;
+  border-top: 8px solid #EAE432;
+  border-right: 8px solid #EAE432;
+  border-left: 8px solid #B7B6B6;
+  border-bottom: 8px solid #B7B6B6;
+  animation: spin 30s infinite linear;
+}
+
+.mobile-image img {
+  animation: spin 30s infinite reverse linear;
+  width: 100%;
+  border-radius: 50%;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(1turn);
+  }
 }
 
 

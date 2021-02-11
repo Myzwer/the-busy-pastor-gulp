@@ -78,9 +78,9 @@ get_header(); ?>
                     // Loop through rows.
                     while( have_rows('pastor_bio') ) : the_row(); ?>
 
-                        <div class="small-12 medium-6 cell center">
-                            <div class="padding-top-sm">
-                                <img class="mobile-image"
+                        <div class="small-12 medium-6 cell center padding-top-sm">
+                            <div class=" mobile-image">
+                                <img class=""
                                      src="<?php the_sub_field("pastor_photo");?>"
                                      alt="Pastor Photo Headshot">
                             </div>

@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Still trying to get the arrow to show in the navbar on desktop / safari. There is a comment showing what works, but it breaks it everywhere else.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Added code to round the corners of videos on safari.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_video.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_video.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_images.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,14 +109,8 @@
       <workItem from="1612369270936" duration="249000" />
       <workItem from="1612369792337" duration="34026000" />
       <workItem from="1612816182500" duration="6576000" />
-      <workItem from="1612974477052" duration="12052000" />
-    </task>
-    <task id="LOCAL-00024" summary=":art: Added the classes to center images and give them a border.">
-      <created>1612197927586</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1612197927586</updated>
+      <workItem from="1612974477052" duration="12173000" />
+      <workItem from="1612995201400" duration="2731000" />
     </task>
     <task id="LOCAL-00025" summary=":rocket: Finished the first iteration of the about us section on the homepage.">
       <created>1612199684403</created>
@@ -450,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612994653733</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary=":hammer: Added code to round the corners of videos on safari.">
+      <created>1612994790733</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1612994790733</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +474,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":heavy_plus_sign: Added and styled the privacy policy page." />
     <MESSAGE value=":green_heart: Updated some comments on the backgrounds scss page." />
     <MESSAGE value=":heavy_plus_sign: Added the code for the 404 page." />
     <MESSAGE value=":rocket: Added a video section to the homepage. This also required adding a new slant color background." />
@@ -494,7 +498,8 @@
     <MESSAGE value=":rocket: Made the episode counter sync with the single posts page, so the episode changes dynamically on the play page." />
     <MESSAGE value=":rocket: Fixed the buttons on single that weren't going to the next and previous post properly, also added php to make them hide and show depending on if the next or previous post exists." />
     <MESSAGE value=":hammer: Still trying to get the arrow to show in the navbar on desktop / safari. There is a comment showing what works, but it breaks it everywhere else." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Still trying to get the arrow to show in the navbar on desktop / safari. There is a comment showing what works, but it breaks it everywhere else." />
+    <MESSAGE value=":hammer: Added code to round the corners of videos on safari." />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Added code to round the corners of videos on safari." />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612303010697">
