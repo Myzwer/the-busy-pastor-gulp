@@ -35,6 +35,15 @@ get_header(); ?>
                                 else: ?>
                             <p>Sorry, no posts matched your criteria.</p>
                             <?php endif; ?></p>
+
+                            <div class="margin-bottom">
+                            <?php if( get_field('button_link') ): ?>
+                                <a href="<?php the_field("button_link"); ?>">
+                                    <button class="btn btn-v1 padding-button"><i class="fas fa-download"></i> Download Leader Guide
+                                    </button>
+                                </a>
+                            <?php endif; ?>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -51,12 +60,6 @@ get_header(); ?>
                         <?php the_field("show_notes"); ?>
 
 <!--                    Adds a download button, but hides it if no link is provided.-->
-                        <?php if( get_field('button_link') ): ?>
-                        <a href="<?php the_field("button_link"); ?>">
-                            <button class="btn btn-v1 padding-button"><i class="fas fa-download"></i> Download Notes
-                            </button>
-                        </a>
-                        <?php endif; ?>
                     </div>
                 </div>
             </div>
