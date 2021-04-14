@@ -59,8 +59,16 @@ get_header(); ?>
                         <?php the_field("video_embed");?>
                     </div>
                 </div>
-                <div class="small-12 medium-6 margin-top cell">
+                <div class="small-12 medium-6 cell">
                     <p class = "left"><?php the_field("video_paragraph");?></p>
+                    <div class="left">
+                        <p class="left no-spacing">Follow us on Socials:</p>
+                        <div class="icon-featured">
+                            <a href="https://www.facebook.com/busypastor"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.instagram.com/busypastor/?hl=en"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UCwljG51omo4mJoJBhBAaQuw"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
